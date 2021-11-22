@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(3, 3, 62);
+    color: white;
+    /*margin:0px;*/
+}
+
+
+
+img{
+    width: 250px;
+    height: 180px;
+}
+.container{
+    width: 800px;
+    margin: auto;
+    position: relative;
+    
+}
+#img_tr{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    
+}
+
+#img_tl{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    
+}
+
+#img_dl{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    
+}
+
+#img_dr{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    
+}
+
+#fixed_list{
+    background: rgb(7, 179, 206);
+    width: 150px;
+    padding: 20px;
+    z-index: 3;
+    position: fixed;
+    top: 70px;
+    right: 50px;
+
+}

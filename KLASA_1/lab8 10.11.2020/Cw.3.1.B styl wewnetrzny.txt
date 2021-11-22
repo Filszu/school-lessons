@@ -1,0 +1,6 @@
+Zamien styl lokalny z cw.3.1.A na wewnetrzny arkusz stylow.
+
+Odpowiedz w tym pliku na pytanie:
+Kiedy warto zastosowac styl lokalny, a kiedy wewnetrzny arkusz stylow?
+
+...

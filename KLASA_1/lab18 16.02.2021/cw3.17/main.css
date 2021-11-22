@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    box-sizing: border-box
+}
+
+
+body{
+    font-size: 22px;
+    background-color: rgb(50, 20, 38);
+ 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+    
+}
+
+a:hover{
+
+}
+
+ul,li{
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+
+li{
+    padding: 15px;
+    transition: ease-in all 0.3s;
+    display: block;
+
+}
+li:hover{
+    background-color: blueviolet;
+    border-left: 15px solid rgb(61, 3, 115);
+}
+
+
+
+
+
+
+.container{
+    width: 400px;
+    margin: auto;
+    background-color: rgb(63, 37, 88);
+    padding: 15px;
+    text-align: center;
+}
+

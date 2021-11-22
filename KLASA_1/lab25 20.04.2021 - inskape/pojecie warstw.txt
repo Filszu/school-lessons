@@ -1,0 +1,23 @@
+Fundamenty grafiki komputerowej – warstwy
+-----------------------------------------
+
+Warstwy – fundament większości programów graficznych. Koncepcja leżąca u podstaw warstw jest niezwykle prosta: rozbicie obrazu i jego ponowne złożenie, jak kanapki. Dzięki temu na stosie warstw możemy osobno przechowywać różne elementy: tło, przedmioty, postacie, przezroczystość obrazu, tekst, wektory, obiekty 3d…
+
+Skąd się wzięły warstwy?
+-------------------------
+
+Mają swoje źródło i specjalne zastosowanie w tradycyjnej – nieskomputeryzowanej – animacji. Klatka animacji powstaje dzięki połączeniu wielu warstw elastycznej i przezroczystej folii, na którą artysta nanosi tło i ruchome elementy. Dzięki temu rysownik nie musi odtwarzać tła w każdej kolejnej klatce. Na stosie warstw wymienia się tylko te folie, które reprezentują zmianę.
+
+Warstwy kojarzą się głównie z programem Adobe Photoshop, ale w grafice komputerowej pojawiły się na początku lat 90′ w programie Matisse (Fauve Software). Dzięki biznesowym zawirowaniom zaimplementowano je także w xRes (Macromedia), a w końcu w Photoshopie 3.0. Obecnie z warstw możemy korzystać w większości programów graficznych; na dodatek ewoluowały i oprócz pikseli, mogą przechowywać wektory oraz ruch pod postacią klatek kluczowych.
+
+Zasada działania warstwy
+-----------------------
+
+Zrozumienie zasady działania warstw pozwala odnaleźć się w wielu sytuacjach. Skrajnym przykładem są warstwy renderingu wykorzystywane w aplikacjach 3d. Dzięki nim, możemy podzielić renderowaną scenę na tło i obiekty pierwszego planu (w dużym uproszczeniu). Następnie w programie do postprodukcji możemy manipulować poszczególnymi warstwami, aby ostatecznie połączyć je w całość.
+
+Również podczas edycji ruchomego obrazu napotykamy warstwy – niezależnie od tego, czy mówimy o montażu, czy też o kompozycji efektów specjalnych. W końcu ścieżki audio i wideo to warstwy, z tym, że oprócz pikseli i wektorów mogą przechowywać klatki kluczowe – punkty w czasie, które są powiązane z różnymi atrybutami. Nawet animacja opiera się na warstwach. Korzystając z odpowiedniego edytora możemy zgromadzić kilka warstw z klatkami kluczowymi, a następnie łączyć na rozmaite sposoby.
+
+Warstwy potrafią przechowywać nie tylko piksele, ale także atrybuty. Tak jest przykładowo z warstwami dopasowania w programie Adobe Photoshop. Tego typu warstwa to po prostu obiekt wpływający na to, co znajduje się poniżej. Z tego powodu warstwy dopasowania nie zwiększają wielkości pliku w MB, gdyż są po prostu zbiorem matematycznych operacji.
+
+Powszechność wykorzystania warstw powoduje, że jest to najważniejsza i podstawowa technologia kompozycji obrazu, którą początkujący grafik powinien opanować w pierwszej kolejności. Niezależnie od tego, czy będziesz się zajmował retuszem, renderingiem lub animacją, z warstwami zetkniesz się już na początku swojej drogi w CGI.
+

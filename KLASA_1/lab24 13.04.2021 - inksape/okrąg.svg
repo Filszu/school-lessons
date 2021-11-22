@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg31"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="okrąg.svg">
+  <defs
+     id="defs25">
+    <rect
+       x="173.72519"
+       y="235.19718"
+       width="124.01306"
+       height="19.243406"
+       id="rect946" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="44.232069"
+     inkscape:cy="701.80726"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.65544;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path33"
+       cx="45.970356"
+       cy="47.573975"
+       r="40.262714" />
+    <circle
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.65544;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path33-7"
+       cx="156.0854"
+       cy="47.03944"
+       r="40.262714" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.65544;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path33-6"
+       sodipodi:type="arc"
+       sodipodi:cx="50.781208"
+       sodipodi:cy="157.15448"
+       sodipodi:rx="40.262714"
+       sodipodi:ry="40.262714"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       sodipodi:arc-type="slice"
+       d="m 91.043922,157.15448 a 40.262714,40.262714 0 0 1 -20.131357,34.86853 40.262714,40.262714 0 0 1 -40.262715,0 40.262714,40.262714 0 0 1 -20.131356,-34.86853 h 40.262714 z" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.65544;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path33-9"
+       sodipodi:type="arc"
+       sodipodi:cx="150.74002"
+       sodipodi:cy="155.55086"
+       sodipodi:rx="40.262714"
+       sodipodi:ry="40.262714"
+       sodipodi:start="0.73300907"
+       sodipodi:end="5.5801343"
+       sodipodi:arc-type="slice"
+       d="m 180.66184,182.491 a 40.262714,40.262714 0 0 1 -44.63125,10.53944 40.262714,40.262714 0 0 1 -25.54877,-38.08266 40.262714,40.262714 0 0 1 26.67802,-37.30028 40.262714,40.262714 0 0 1 44.29552,11.87157 l -30.71534,26.03179 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="29.934187"
+       y="103.70058"
+       id="text906"><tspan
+         sodipodi:role="line"
+         id="tspan904"
+         x="29.934187"
+         y="103.70058"
+         style="stroke-width:0.264583">okrąg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="146.54028"
+       y="101.80945"
+       id="text906-0"><tspan
+         sodipodi:role="line"
+         id="tspan904-4"
+         x="146.54028"
+         y="101.80945"
+         style="stroke-width:0.264583">koło</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="181.74329"
+       y="99.424271"
+       id="text934"><tspan
+         sodipodi:role="line"
+         id="tspan932"
+         x="181.74329"
+         y="99.424271"
+         style="stroke-width:0.264583" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="27.261492"
+       y="222.90279"
+       id="text938"><tspan
+         sodipodi:role="line"
+         id="tspan936"
+         x="27.261492"
+         y="222.90279"
+         style="stroke-width:0.264583">półkole</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="143.791"
+       y="222.90279"
+       id="text942"><tspan
+         sodipodi:role="line"
+         id="tspan940"
+         x="143.791"
+         y="222.90279"
+         style="stroke-width:0.264583">łuk</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text944"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;white-space:pre;shape-inside:url(#rect946);" />
+  </g>
+</svg>

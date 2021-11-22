@@ -1,0 +1,5 @@
+Zaprojektuj prostą stronę www, na której zaprezentujesz dziedziczenie stylów. 
+Wzoruj się na przykładzie ze strony:
+https://www.kurshtml.edu.pl/css/dziedziczenie_stylow,elementy.html
+
+Na stronie ma sie znajdowac opis twojego eksperymentu.

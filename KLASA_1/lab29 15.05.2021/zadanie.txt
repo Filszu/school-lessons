@@ -1,0 +1,38 @@
+Na podstawie filmiku dokonaj modyfikacji rysunku modelki.
+
+ETAPY ZADANIA:
+
+1. wyciecie postaci 
+>zaznaczenie (np. lasso)
+>zduplikowanie warstwy
+>kanal alfa dla wartw
+>powiekszenie zaznaczenia 2px
+>zmiekczenie zaznaczenia 2px
+>edycja-wyczysc
+>usuniecie warstwy orginalnej
+
+2.pozycjonujemy postac - narzedzie przesuwanie
+
+3.dopasowujemy warstwe do wymiarow obrazu ppm na warstwie i dopasuj warstwe do rozmiaru
+
+4.dodajemy nowa warswe biala i przesuwamy ponizej orginalnej warstwy
+
+5. duplikujemy warstwe z postacia
+
+6. dla warstwy srodkowej stosujemy narzedzie odksztalcanie, rozmiar narzedzia ustawiamy na duza wartosc
+
+7. dodajemy maske warswy srodkowej ppm na warstwie-dodaj maske warstwy-czarna
+
+8. dodajemy maske warstwy gornej ppm na warstwie-dodaj maske warstwy-biala
+
+9. na bialej masce czarnym kolorem, pedzel Splats02, Dynamika - Dynamic Random, rozmiar 400 i zamalowujemy prawa czesc postaci, nastepnie zmniejszamy rozmiar na 200 i zamalowujemy przy samej krawedzi (pozbywamy sie ostrej krawedzi), przy jeszcze mniejszym rozmiarze staramy sie usunac krawedz
+
+10. zamianiamy kolory czarny z bialym (bialy pierwszoplanowy)
+
+11. przechodzimy na czarna maske i odslaniamy nasza deformacje, duzy rozmiar pedzla ok 500, ruchy poziome i pionowe na przemian odslaniamy deformacje.
+
+ 
+
+
+
+

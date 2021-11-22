@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+html{
+    font-size: 25px;
+}
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    
+    
+}
+
+body{
+    background-color: rgb(55, 35, 74);
+    font-family: 'Syne Mono', monospace, 'Apple Chancery', cursive;
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    height: 2000px;
+    
+}
+header{
+    font-size: 3.2rem;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+ 
+    font-family: 'Monoton', cursive;
+    text-decoration: underline;
+    word-spacing:  20px;
+
+}
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.gallery{
+
+width: 90%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 15px;
+row-gap: 10px;
+
+margin: auto;
+
+}
+
+.item{
+    background-color: blueviolet;
+    /*min-width:300px;*/
+    width: 100%;
+    height: 100%;
+    transition: all ease-in 0.2s;
+    opacity: 0.7;
+    border-radius: 5px 5px 35px 5px;
+    cursor: pointer;
+    z-index: -1;
+   
+}
+
+.item:hover{
+    z-index: 7;
+    transform: translate(10px, 20px);
+    opacity: 1;
+    
+}
+
+.item p{
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+    display: block;
+    border-radius:  5px 5px 0px 0px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.next{
+  
+    border-radius: 25px 50px;
+    padding: 15px;
+    background-color: rgb(159, 39, 202);
+    transition: all ease-in 0.1s;
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+
+.next:active{
+    transform: scale(1.2);
+}
+
+
+footer{
+    margin:auto;
+    text-align:center;
+    width: 300px;
+}

@@ -1,0 +1,72 @@
+*{
+font-size: 20px;
+margin: 0px;
+box-sizing: border-box;
+
+}
+body{
+    background: rgb(4, 39, 24);
+    color: white;
+    
+    font-family: 'Nunito', sans-serif;
+}
+.container
+{
+    width: 70%;
+    margin: auto;
+    
+   
+
+}
+
+.logo{
+
+    font-size: 5rem;
+    width:100%;
+    background-image: url("bg1.jpg");
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+    
+}
+
+.lists{
+    padding: 10px 20px;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr) ;
+    
+    
+}
+
+ol{
+    list-style: upper-roman;
+    list-style-position: outside;
+    
+
+}
+
+ul{
+
+    
+    list-style-position: inside;
+
+}
+
+#listC{
+    list-style-type: "🔆";
+    
+}
+
+#listC li{
+    list-style-type: "🔆";
+    
+}
+
+
+
+
+#listB{
+    
+    list-style-image: url("i.png");
+}
+

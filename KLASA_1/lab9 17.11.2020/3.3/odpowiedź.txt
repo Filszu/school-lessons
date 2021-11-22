@@ -1,0 +1,2 @@
+<b>Znacznik h2 będzie miał kolor niebieski, będzie wyrównany do prawej, i czcionkę [rozmiar]będzie miał 12pt
+    </b> - patrz pliki

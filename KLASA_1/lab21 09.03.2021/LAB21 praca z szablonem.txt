@@ -1,0 +1,7 @@
+Wykorzystaj przygotowany w poprzednim ćwiczeniu szablon do wykonania strony zbliżonej wyglądem do strony na rysunku 3.65.
+
+Uklad strony ma byc identyczny z ukladem na rysunku.
+
+Tresc ma byc zgodna z trescia prezentowana na rysunku - z wyjatkiem autora strony (tresc ta byla wykorzystywana przez nas we wczesniejszych laboratoriach).
+
+Menu ma być w pelni funkcjonalne i ma przenosic nas do odpowiednich podstron. Podstrony nalezy samodzielnie przygotowac. Najlepiej aby wczytywaly sie do jednej z kolumn.

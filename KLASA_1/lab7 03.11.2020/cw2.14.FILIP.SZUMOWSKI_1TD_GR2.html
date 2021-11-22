@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz rejestracji</title>
+    <style>
+        body{
+            background-color: rgb(3, 20, 51);
+            color: white;
+            margin: 0;
+        }
+        input{
+            border-radius: 15px;
+        }
+        #container
+        {
+            width:500px; margin-right: auto; margin-left: auto; background-color:rgb(58, 48, 48);
+            padding: 15px;
+        }
+        #showall
+        {
+            display:none;
+        }
+
+        .wymagane
+        {
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container" >
+    <form action="mailto:fsz05@onet.pl?subject=temat" method="post" enctype="text/plain" method="POST" onsubmit="wyslij()">
+        <h1>Wypełnij ankietę</h1>
+        Imię:<span class="wymagane">*</span> <input type="text" name="name" placeholder="Jan" required/><br>
+        Nazwisko: <span class="wymagane">*</span> <input type="text" name="subname" placeholder="Nowak" required/><br>
+
+
+        <br>
+
+        Płeć:<span class="wymagane">*</span><br>
+        <input type="radio" id="male" name="gender" value="female">
+        <label for="female">Kobieta</label>
+
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Mężczyzna</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">inna</label><br/>
+
+        <br>
+        wiek:<span class="wymagane">*</span>
+        <input type="number" name="age" min="10" placeholder="od 10 lat" required/>
+
+        <br>
+        <br>
+        Podaj adres e-mail:<span class="wymagane">*</span>
+        <input type="email" name="email" placeholder="JanNowak@poczta.pl" required/><br>
+
+        <br>
+
+        Jakimi językami się posługujesz?<br>
+        <select name="langauge" multiple>
+            <option>Język angielski</option>
+            <option>Język niemiecki</option>
+            <option>Język francuski </option>
+            <option>Język włoski</option>
+            <option>Język rosyjski</option>
+            <option>Język hiszpański</option>
+        </select><br><br>
+
+        Jakie są twoje zainteresowania:<br>
+        <input type="checkbox" id="motoryzacja" name="motoryzacja">
+        <label>Motoryzacja</label><br>
+
+
+        <input type="checkbox" id="sport" name=sport>
+        <label>Sport</label><br>
+
+
+        <input type="checkbox" id="muzyka" name="muzyka" onclick="showall()"> 
+        <label for="muzyka">Muzyka<b class="wymagane">[zobacz więcej]</b></label><br>
+        <div id="showall" >
+            <input type="checkbox" name="muzyka1">
+            <label>Pop</label>
+            <input type="checkbox" name="muzyka2">
+            <label>Jazz</label>
+            <input type="checkbox" name="muzyka3">
+            <label>Rock</label>
+            <input type="checkbox" name="muzyka4">
+            <label>Rockandroll</label>
+            <input type="checkbox" name="muzyka5">
+            <label>inna</label>
+        </div>
+
+        <input type="checkbox" id="taniec" name="taniec">
+        <label>Taniec</label><br>
+
+        <input type="checkbox" id="gry" name="gry">
+        <label>Gry</label><br>
+
+        <input type="checkbox" id="brak" name="brak">
+        <label>Nie mam żadnych zainteresowań</label><br>
+
+        <input type="checkbox" id="inne" name="inne">
+        <label>Inne (podaj jakie): </label><input type="text" placeholder="modelarstwo" /><br>
+
+        
+
+        Jak trafiłeś na tą stronę?:<br>
+        <textarea rows="5" cols="50" placeholder="opisz swoją historię i weź udział w konkrsie[pozostało 250 znaków]" maxlength="250"></textarea>
+
+        <br>
+        Masz jakieś uwagi?:<br>
+        <textarea rows="5" cols="50" placeholder="Wpisz je tutaj :D [pozostało 250 znaków]" maxlength="250"></textarea>
+
+        <br><br>
+        <input type="checkbox" checked disabled/>Akceptuje regulamin<br/>
+        <input type="checkbox" id="dos" />
+        <label for="dos">Zgadzam się na przetwarzanie danych osobowych</label>
+
+        <br>
+        <br>
+
+        <input value="Wyślij" type="submit">
+        <input value="Wyczyść" type="reset" />
+    </form>
+    
+
+    <footer>Autor Filip Szumowski</footer>
+</div>
+
+<script>
+    function showall()
+    {
+       // alert("s");
+        
+        document.getElementById('showall').style.display="block";
+        
+    }
+
+    function wyslij()
+    {
+        if(document.getElementById('muzyka').checked!=true)
+        {
+        alert("Napewno nie lubisz żadej muzyki?");
+        }
+    }
+
+        
+</script>
+</body>
+
+</html>

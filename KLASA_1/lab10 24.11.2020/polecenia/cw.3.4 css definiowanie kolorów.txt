@@ -1,0 +1,13 @@
+Zapoznaj sie ze sposobem kodowania kolorow w CSS
+(https://www.kurshtml.edu.pl/css/kolory.html)
+a nastepnie odpowiedz na pytanie:
+
+Ile maksymalnie kolorow mozna uzyskac, stosujac 
+do definiowania koloru kod heksadecymalny?
+
+praktycznie w CSS
+> ...
+
+teoretycznie (wez pod uwage maksymalna wartosc zapisywana w kodzie heksadecymalnym przy definiowaniu koloru w języku CSS)
+> ...
+

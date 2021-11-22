@@ -1,0 +1,17 @@
+body{
+    background-color: #137c13;
+    color: white;
+}
+
+#s1 span{
+    color: #1504fd;   
+}
+
+#s2 > span{
+    color: #f8064e;   
+    font-size: 0.5em;
+}
+
+#s3 ~ b {
+    color: #04fd2e;   
+}

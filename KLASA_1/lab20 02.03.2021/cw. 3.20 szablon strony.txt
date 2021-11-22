@@ -1,0 +1,5 @@
+Przygotuj własny szablon strony internetowej zawierajacy 4 elementowe poziome menu.
+Nadaj mu atrakcyjny wyglad. 
+Podziel go na 4 sekcje: header, nav, section i footer
+Uzyskaj efekt zblizony do przedstawionego na rysunku 3.64
+

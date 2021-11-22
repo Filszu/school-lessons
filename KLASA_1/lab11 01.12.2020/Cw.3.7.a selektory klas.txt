@@ -1,0 +1,6 @@
+Zaprojektuj prostą stronę www, na której zaprezentujesz działanie selektora klas
+
+Wzoruj się na przykładach ze strony:
+https://www.kurshtml.edu.pl/css/klasy_selektorow,specjalne.html
+
+Na stronie ma sie znajdowac opis twojego eksperymentu.

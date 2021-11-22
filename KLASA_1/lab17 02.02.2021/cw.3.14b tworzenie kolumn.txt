@@ -1,0 +1,7 @@
+Utwórz dokument www zawierający trzy kolumny. 
+W każdej kolumnie umieść jeden obrazek z tekstem, go opisującym na dowolny temat.
+
+Obrazki powinny mieć jednakową wielkość, a tekst powinien go oblewać z prawej strony z zachowaniem malego odstepu np. 10px
+
+Do wykonania zadania zastosuj znacznik <div> i umieść w nim atrybut float z wartoscią left. Pamiętaj też o określeniu szerokości kolumny width, oraz marginesu pomiędzy kolumnami margin np.:
+div {width:32%;float:left;margin:5px;}

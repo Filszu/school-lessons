@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(48, 43, 43);
+    margin: 0px;
+}
+
+.container {   /*Klasa container*/
+    width: 750px;
+    margin: auto;
+
+
+    font-family: sans-serif;
+    border-radius: 25px;
+    background-color: rgb(39, 51, 51);
+    min-height: 500px;
+    color: white;  /*[dziedziczenie koloru] - rodzic-----------------------UWAGA!---------------------------------------------*/
+    /*Opis dziedziczenia w elemiencie container znajdują się wszystkie pozostałe elementy które dziediczą np. jego czcionkę */
+
+}
+
+header {
+    text-align: center;
+   
+    font-size: 2rem;
+    background-image: url("bg1.jpg");
+    height: 300px;
+    border-radius: 25px;
+    color:rgb(255, 128, 16);
+}
+
+.content{  /*klasa content */
+    padding: 10px;
+}
+
+footer{
+    padding: 10px;
+    text-align: center; 
+    font-size: 0.8rem;
+}
+
+header img{ 
+    width: 5%;
+}
+.content img{  /*img w klasie content*/
+  width: 150px;
+  margin: 5px;
+}

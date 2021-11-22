@@ -1,0 +1,6 @@
+Oprogramuj gotowa ankiete tak aby zostalo sprawdzone, po stronie przegladarki wypelnienie wszystkich pol ankiety przez uzytkownika. W tym celu posluz sie skryptem JavaScript ze strony:
+
+https://www.kurshtml.edu.pl/html/ramy_formularza,formularze.html
+
+Skrypt dostosuj do swojej ankiety.
+

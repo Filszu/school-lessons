@@ -1,0 +1,5 @@
+cw3 > zmieniamy kolor drogi
+cw4> przygotowujemy 3 dowolne zdjecia. Zdjecia musza miec wieksza rozdzielczosc od skalowanej w zadaniu inaczej ulegna pikselizacji.
+cw5> korekte wykonujemy dla pliku 4.21
+cw7> do cwiczenia uzyj dowolnego pliku przygotowanego w cw4. Elementy, ktore skorygowales wypisz ponizej:
+...

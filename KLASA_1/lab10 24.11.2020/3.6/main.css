@@ -1,0 +1,23 @@
+body{
+    background-color: #137c13;
+    color: white;
+}
+
+
+p[title="center"]
+{
+   color:rgb(0, 255, 34); 
+}
+
+p[title="right"]
+{
+   color:rgb(255, 0, 0); 
+}
+
+h2[font-size="16pt"]{
+    color:yellow;
+}
+
+h2[font-size="20pt"]{
+    color:rgb(69, 12, 226);
+}

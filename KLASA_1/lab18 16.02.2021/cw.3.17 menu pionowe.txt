@@ -1,0 +1,6 @@
+Wykorzystujac poznane narzedzia utworz na stronie internetowej menu pionowe.
+Zastosuj zewnetrzny arkusz stylow. 
+Zmieniajac deklaracje stylow w arkuszu stylow, nadaj elementom menu atrakcyjny wyglad.
+Menu zbuduj w oparciu o menu poziome umieszczone na stronie naszej szkoly.
+(START, O szkole, Edukacja, W Mediach, Nabór 2020, Dla absolwentów)
+Odnosniki maja dzialac tak jak ich odpowiedniki na stronie szkoly.

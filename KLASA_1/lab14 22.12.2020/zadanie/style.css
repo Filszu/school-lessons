@@ -1,0 +1,50 @@
+*{
+   
+    box-sizing: border-box;
+  
+}
+
+body {
+    background-color: rgb(37, 38, 54);
+    color: white;
+    margin: 0px;
+
+}
+
+.container {
+    width: 800px;
+    /*background-color: rgb(33, 45, 213);*/
+
+    margin: auto;
+
+
+}
+
+.box {
+    background-color: rgb(49, 60, 71);
+    display: block;
+}
+
+.noMargin {
+    border: 5px solid black;
+    width: 300px;
+
+
+}
+
+.margin1 {
+    margin-left: 1cm;
+    border: 5px dotted darkgreen;
+}
+
+.paddingA {
+    padding: 1cm 3cm;
+    border: 5px dashed yellow;
+
+}
+
+.border4 {
+    margin: 0 5cm 0 2cm;
+    border: 5px double rgba(8, 144, 89, 0.557);
+    padding: 0 0 3cm 0;
+}

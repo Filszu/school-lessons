@@ -1,0 +1,13 @@
+zad1
+Narysuj schemat urzadzenia przedstawionego na rysunku schemat.png
+
+zad2
+Przygotuj na swoja strone www graficzne logo zblizone wygladem do 
+tekstu prezentowanego na rysunku
+
+zad3 
+Pobierz ze strony https://publicdomainvectors.org/pl/tag/Svg z darmowymi SVG "Złoty web przycisk wektor clipart"
+Wczytaj go do INSCAPE, a nastepnie zmień jego kolorystyke tak, aby można go było zastosować jako przycisk menu (zmiana wygladu po najechaniu na przycisk)
+
+zad4 
+Wstaw obrazki wygenerowane w zad3 na strone www i oprogramuj tak (z uzyciem kodu html i css), aby przycisk stal sie odnosnikiem i zmienial swoj wyglad po najechaniu na niego. 

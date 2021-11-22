@@ -1,0 +1,35 @@
+.box{
+width: 50%;
+margin: auto;
+border:8px solid rgb(52, 0, 101) ;
+border-radius: 25px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.button{
+
+    text-align: center; 
+    cursor: pointer;  
+    transition: all ease-in 0.1s;
+}
+
+.button:active{
+    transform: scale(1.2);
+    color:rgb(194, 141, 243);
+}
+
+
+
+nav{
+    margin: auto;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#imgAuto{
+    display: block;
+}

@@ -1,0 +1,5 @@
+-wyrównanie obrazu, skalowanie obrazu
+-redukcja szumu
+-dodanie kaczek (metoda kopiowania, wycinania)
+-dostosowywanie kaczek do tła za pomocą modyfikacji krzywych kolorów 
+-modyfikacji krzywych kolorów 

@@ -1,0 +1,11 @@
+NIEZALECNE Lokalny arkusz stylów warto stosować jedynie wtedy kiedy chcesz zmienić wygląd 1 elementu, a nie chce ci się tworzyć odrębnej klasy, lub wogóle mieszać w stylach pliku css.
+
+NIEZALECANE Wewnętrzny zaś kiedy chcesz coś zmienić tylko dla jedenj podstrony ale, nie chcesz dla niej tworzyć osobnego arkusza css.
+Odzielasz wtedy css od html 
+[<style></style>
+
+ZALECANY osobny zewnętrzny arkusz styli, *css
++możliwość podpięcia do wielu podstron
++oddzielenie html od css 
++przejrzystość
+(+można dodać też kilka arkuszy styli zewnętrznych )

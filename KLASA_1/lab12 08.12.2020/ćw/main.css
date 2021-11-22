@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+root:{
+    font-size: 20px;
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box'
+}
+
+
+
+body{
+    background-image: url("bg1.jpg");
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header{
+    grid-column: 3/11;
+    background-color: #890000cd;
+    font-size: 4rem;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0px 0px 15px 15px;
+   
+}
+
+.content{
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #890000;
+    grid-column: 3/11;
+
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+.content h1{
+    grid-column: 1/13;
+
+}
+
+h2{
+    font-style: italic;
+}
+
+h3{
+    color: #1e2131;
+    color: rgb(242, 248, 248);
+
+}
+
+.content img{
+    
+    grid-column: 1/3;
+    border-radius: 25px;
+
+    width: 100%;
+}
+
+
+
+.info
+{
+    grid-column: 3/10;
+    padding: 15px;
+}
+.info::after{
+    content: "Źródło: wikipedia";
+    font-size: 0.6rem;
+
+}
+
+.banner{
+    grid-column: 10/13;
+}
+
+p::first-letter{
+    color:rgb(255, 238, 0);
+    font-size:  1.6rem;
+    
+}
+

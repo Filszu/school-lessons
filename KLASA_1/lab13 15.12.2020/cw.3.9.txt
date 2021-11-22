@@ -1,0 +1,15 @@
+
+
+Sprawdz dzialanie atrybutu background-attachment dla wartosci: scroll, fixed i local. Dzialanie to opisz ponizej:
+
+> scroll:  domyślne,
+
+> fixed: stałe, nie przeuwa się tło wraz z przewijaniem tak jak w fixed
+
+> local: nie ruchome, posiada suwaki
+
+Na swojej stronie dla tła zastosuj wartość fixed.
+
+
+
+

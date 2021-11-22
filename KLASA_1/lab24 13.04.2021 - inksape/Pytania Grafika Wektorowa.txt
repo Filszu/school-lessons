@@ -1,0 +1,28 @@
+1. Jakie mamy dwa podstawowe rodzaje grafiki komputerowej?
+> rastrowa, wektorowa
+
+2. Charakterystyka grafiki wektorowej
+> 
+1. Rysunki wektorowe są skalowalne
+2. Brak zniekształceń obrazu
+3. Pliki wektorowe pozwalają na precyzyjną edycję
+4. Plik ma małe rozmiary
+5. Idealnie sprawdza się w projektowaniu ilustracji zawierających wiele szczegółów
+6. Grafika wektorowa wygląda dobrze w druku
+7. Grafika jest bardziej precyzyjna
+
+3. Trzy najwazniejsze formaty grafiki wektorowej
+> 
+EPS 
+SVG 
+SWF 
+
+4. Popularne programy komercyjne i darmowe do tworzenia grafiki wektorowej
+> inkscape, Corel Draw, Adobe Illustrator, Macromedia Freehand
+
+5. Do czego stosujemy grafike wektorowa?
+> grafika, loga czcionki, plany, rusunki itd. wszystko
+
+6. jest to darmowy program do tworzenia grafiki wektorowej, stworzony w ramach projektu GNU. Pozwala na tworzenie przede wszystkim symboli, znaków towarowych i logotypów produktów/firm/stowarzyszeń oraz tworzenie ikon czy postaci komiksowych. Jest odpowiednikiem popularnego, płatnego programu CorelDRAW
+> ...
+

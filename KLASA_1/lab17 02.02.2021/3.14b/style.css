@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+    color: white
+    
+
+}
+body{
+    background-color: rgb(2, 36, 57);
+   
+}
+
+img
+{
+    width: 150px;
+    border: 5px solid;
+    border-radius: 25px;
+    margin: 15px;
+    display:block;
+    float: left;
+    
+}
+#container{
+    width: 1000px;
+    margin: auto;
+ 
+    height: 500px;
+
+}
+.columns{
+    margin: auto;
+   /* width: 100%;*/
+
+    height: 300px;
+
+}
+
+
+.col{
+    float:left;
+    width:300px;
+    border: 1px solid;
+    
+}
+
+img{
+    float:left;
+}
+h1{
+    margin: 20px;
+}
