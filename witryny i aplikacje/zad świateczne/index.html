@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ŚWIĘTA</title>
+
+</head>
+<body style="background-color: rgb(2, 2, 10); margin: 0px;">
+    
+    <img src="https://img.redro.pl/obrazy/merry-christmas-santa-claus-costume-red-hat-golden-belt-beard-cute-cartoon-kawaii-funny-character-smiling-face-hand-new-year-baby-collection-greeting-card-blue-background-700-185392237.jpg" alt="merry christmas santa claus">
+
+
+    <script>
+        
+        const img = document.querySelector("img");
+
+    
+        img.addEventListener("mouseover", function(){img.style.cursor="pointer"});
+        img.addEventListener("click", function(){
+
+            img.src="https://www.icegif.com/wp-content/uploads/merry-christmas-icegif-4.gif";
+            const audio = new Audio('https://upload.wikimedia.org/wikipedia/commons/3/36/Christmas_music2004.ogg');
+            audio.play();
+        });
+    
+    
+    </script>
+</body>
+</html>

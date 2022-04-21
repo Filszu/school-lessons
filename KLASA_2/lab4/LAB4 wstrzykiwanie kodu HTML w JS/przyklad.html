@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Java Script - ćwiczenia</title>
+</head>
+
+<body>
+	<!-- element przygotowany do wstrzyknięcia kodu HTML ze skryptu -->
+    <div id="element_na_dane_HTML"></div>
+	
+    <script>
+        /* OPIS
+            Chcąc wstrzyknąć kod HTML do wybranego elementu, najpierw przypisujemy
+            ten element do stałej wykorzystując metodę - querySelector().
+            Następnie wstrzyjujemy do danego elementu kod HTML wykorzystując metodę
+            innerHTML().
+        */
+        
+        //przypisanie elementu strony do stałej czyli div z id="element_na_dane_HTML" do stałej wynik  
+        const wynik= document.querySelector("#element_na_dane_HTML");
+        
+		//utworzenie zmiennej, która będzie przechowywać kod do wstrzyknięcia
+        let kodHTML='';
+		
+        //przykladowy kod   
+        for (let i=1; i<101; i++) {
+		kodHTML=kodHTML+i+' Nie będę rozmawiał na lekcji Informatyki. <br>';
+		}
+        
+        //"wstrzyknięcie" - innerHTML() - kodu HTML do div-a  
+        wynik.innerHTML=kodHTML;
+    </script>
+	
+</body>
+
+</html>
+       

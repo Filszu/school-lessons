@@ -1,0 +1,7 @@
+Utwórz dowolny nowy obiekt w dowolny poznany sposób. 
+Przypisz mu trzy wartosci typu:
+string, number, boolean
+Utwórz jakoś dowolną metodę dla utworzonego obiektu.
+Wszystkie elementy tworzące obiekt wyświetl w konsoli 
+(obiekt, wartość1, wartość2, wartość3, metoda), 
+natomiast na stronie wyświetl wartości obiektu.

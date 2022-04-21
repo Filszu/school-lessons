@@ -1,0 +1,1 @@
+do while najpeir wykonuje powtórzenie(dzia³anie) a dopiero póŸniej sprawdza warunek, wiêc musi wykonaæ siê min. 1 raz

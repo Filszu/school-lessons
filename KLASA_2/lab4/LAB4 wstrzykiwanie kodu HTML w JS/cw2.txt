@@ -1,0 +1,12 @@
+Do treści strony wstaw div-a z id="wynik". Zdefiniuj dwie zmienne a o wartości 75 i b o wartości 125. Do div-a z id="wynik" 
+wstrzyknij działanie dodawania zmiennych jako nagłówek 1 stopnia.
+
+POMOC:
+
+Chcąc wstrzyknąć kod HTML do wybranego elementu, najpierw przypisujemy
+ten element do stałej wykorzystując metodę - querySelector().
+
+Następnie wstrzykujemy do danego elementu kod HTML wykorzystując metodę
+inneHTML(). 
+
+Wstrzykiwać możemy także znaczniki HTMLa.

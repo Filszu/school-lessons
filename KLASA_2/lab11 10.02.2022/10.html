@@ -1,0 +1,38 @@
+<!-- ZAD10
+Zdefiniuj prostą tablicę, która będzie zawierała imiona Twoje i 4 kolegow z klasy. Wykorzystaj fętlę for-each i wypisz w konsoli wszystkie argumenty funkcji wywołanej w for-each tj. element, indeks elementu, tablicę.
+
+POMOC:
+Pętla for each to konstrukcja, która pozwala na sekwencyjne przeglądanie różnych zbiorów danych. Mogą nimi być tablice, a także dynamiczne struktury jak na przykład listy.
+
+Poniższy przykład ilustruje sposób użycia pętli do iteracji tablicy w języku JavaScript:forEach()
+
+const ptaki = ['sroka', 'sikorka', 'kura', 'sowa'];
+
+ptaki.forEach((item, index) => {
+  console.log(${index} : ${item});
+}); -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10</title>
+</head>
+<body>
+    &#9999
+    <div id="container"></div>
+    
+    <script>
+        const box = document.querySelector("#container");
+        const osoby = ['Filip', 'Kacper', 'Aleks', 'Konrad', 'Irwyd'];
+        console.log(osoby);
+        
+        osoby.forEach((item, index) => {
+            console.log(`▶${item}, ${index}`);
+            box.innerHTML+=`&#${Math.floor(Math.random() * (10000 - 100)) + 100} ${item}, ${index}<br>`;
+        });
+    </script>
+</body>
+</html>

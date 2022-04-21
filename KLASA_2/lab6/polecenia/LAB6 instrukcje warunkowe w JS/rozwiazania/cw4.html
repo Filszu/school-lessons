@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script - ćwiczenia</title>
+
+</head>
+<body>
+    <div id="oceny"></div>
+    <script>
+   
+
+        
+        const grade_desc=document.querySelector('#oceny');
+
+        //pobranie wartość zmiennej ocena  
+        let ocena=prompt("Podaj ocenę: ");
+
+        //instrukcja switch()   
+        switch(ocena){
+            case "1":
+                opisoceny.innerHTML=ocena+'<h2>niedostateczny</h2>';
+                break;
+            case "2":
+                opisoceny.innerHTML=ocena+'<h2>dopuszczający</h2>';
+                break;
+            case "3":
+                opisoceny.innerHTML=ocena+'<h2>dostateczny</h2>';
+                break;
+            case "4":
+                opisoceny.innerHTML=ocena+'<h2>dobry</h2>';
+                break;
+            case "5":
+                opisoceny.innerHTML=ocena+'<h2>bardzo dobry</h2>';
+                break;
+            case "6":
+                opisoceny.innerHTML=ocena+'<h2>celujący</h2>';
+                break;
+            default:
+                opisoceny.innerHTML='<h2>nieznana ocena</h2>';
+           }
+    </script>
+</body>
+</html>
+       

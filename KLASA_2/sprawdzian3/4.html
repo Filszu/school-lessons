@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+</head>
+<body>
+    <div class="box"></div>
+    <script>
+        const num = prompt("Liczba");
+        const box = document.querySelector(".box");
+
+        let b=1;
+        for(i=1; i<=num; i++){            
+            b*=i;
+        }
+
+        // function silnia(num){
+        //     return num==0? 0 : silnia(1*b);
+        // }
+
+        box.innerHTML=`silnia z ${num} wynosi ${b}`;
+    </script>
+</body>
+</html>

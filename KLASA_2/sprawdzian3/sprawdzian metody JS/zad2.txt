@@ -1,0 +1,4 @@
+Pobierz od użytkownika jego życowe motto, a następnie policz ilość znaków tworzących ten tekst. Motto i ilość znaków wyświetl na stronie wg poniższych wskazówek:
+
+<h3>Pobranny tekst motto<h3>
+<h6>Twoje motto jest utworzone z X znaków.<h6>

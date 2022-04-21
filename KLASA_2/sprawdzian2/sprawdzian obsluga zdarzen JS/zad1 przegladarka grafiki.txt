@@ -1,0 +1,6 @@
+Zastąp obrazki wyswietlane na stronie projektu biuro podrozy GLOB
+(lato, zima, last minute), 
+prosta przegladarka grafiki napisana w kodzie JS.
+
+POMOC:
+Mozesz np. wykorzystac liste select

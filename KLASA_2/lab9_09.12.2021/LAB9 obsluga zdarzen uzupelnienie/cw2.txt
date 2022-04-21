@@ -1,0 +1,8 @@
+Użyj pola typu checbox. Obok pola ma być teskt Zapoznałem się z regulaminem. Jego zaznaczenie ma poniżej wyświetlać jako nagłówek 2 stopnia tekst 'Pamiętaj! Koniecznie przeczytaj nasz regulamin.'
+
+POMOC:
+Do wykonania tego zadania potrzebna bedzie instrukcja warunkowa, ktora sprawdzi zaznaczenie checbox'a. 
+Jesli warunek bedzie TRUE to wyswietlamy tekst, 
+jesli FALSE to nic nie wyswietlamy.
+Instrukcja warunkowa nalezy umiescic wewnatrz metody
+addEventListener()

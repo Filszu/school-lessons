@@ -1,0 +1,19 @@
+Dla cw1 zdefiniuj konstruktor o nazwie Osoba. Zdefiniuj za jego pomocą obiekt o nazwie uczen1. Wyświetl jego zawartość w konsoli.
+
+POMOC:
+Konstruktor to specjalna funkcja, która pozwala tworzyć 
+obiekty wg. zdefiniowanego wzoru.
+Dzięki temu możemy utworzyć wiele obiektów danej klasy
+(korzystając z danego konstruktora).
+
+np.
+//początek konstruktora
+        function Oferta (marka, model, cena, spalanie, rocznik) {
+            this.marka = marka;
+            this.model = model;
+            this.cena = cena;
+	    }
+//koniec konstruktora
+
+//wywołanie konstruktora do utworzenia obiektu klasy Oferta o nazwie Oferta1
+const Oferta1= new Oferta("Kia","Carens",65000);

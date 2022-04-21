@@ -1,0 +1,5 @@
+Do zmiennej przypisz wartość "Twórcą języka JavaScript (w skrócie JS) – jest Brendan Eich.". Tekst wypisz do div-a i umieść w znaczniku <h3>. Pod tekstem w kolejnym div-ie wypisz długość tekstu (ilość znaków) np. 50 znaków.
+
+POMOC:
+W zadaniu zastosuj metodę .length. Metoda zwraca długość tekstu. Np. zapis tekst.length 
+zwraca ilość znaków w tekście przypisanym do zmiennej tekst.

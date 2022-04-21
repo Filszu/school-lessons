@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(18, 133, 150);
+    color: white;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container
+{
+    width: 450px;
+    margin: auto;
+    border: 5px solid rgb(15, 78, 88);
+    padding: 15px;
+    border-radius: 25px;
+}

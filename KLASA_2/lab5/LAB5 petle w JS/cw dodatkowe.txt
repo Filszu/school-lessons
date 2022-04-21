@@ -1,0 +1,1 @@
+Zaprojektuj a następnie napisz w JS funkcjonalny program, w którym zastosujesz mechanizm wstrzykiwania kodu do obiektu strony oraz dowolną instrukcję pętli.

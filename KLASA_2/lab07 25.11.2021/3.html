@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+</head>
+
+<style>
+    button{
+        width: 300px;
+        padding: 20px;
+    }
+
+    .pro_button{
+        color: red;
+        animation: animate ease-in 1s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes animate{
+        0%{
+            color: red;
+            font-size: 1em;
+        }
+
+        65%{
+            transform: scale(0.8);
+            font-size: 1.4em ;
+        }
+        89%{
+            color: blue;
+            font-size: 1.4em ;
+            transform: scale(0.9);
+            
+        }
+        100%{
+            font-size: 1em;
+            transform: scale(1);
+        }
+    }
+</style>
+<body>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+
+    <script>
+        const buttons = document.querySelectorAll("button");
+        
+        
+
+        for(const button of buttons) {
+		button.addEventListener("click",function() {
+                button.innerHTML="kliknąłeś na przycisk.";
+                btnActivate(button);
+		});
+        }
+       
+        let color=0;
+        function btnActivate(button){
+            button.classList.add("pro_button");
+           
+            
+        }
+
+  
+        
+
+        
+        
+
+
+
+        
+
+    </script>
+</body>
+</html>

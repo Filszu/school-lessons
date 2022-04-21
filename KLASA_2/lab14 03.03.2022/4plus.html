@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotto</title>
+    <link rel="stylesheet" href="lotto.css">
+</head>
+<body>
+    <header>
+        <span>LOTTO <img src="https://www.lotto.pl/cdn/d042cbcb2df860f1ad64ce2321cc00c1.svg" alt="lotto logo"></span>
+    </header>
+    <main>
+        <div class="panel"></div>
+        
+    </main>
+    <footer>
+
+    </footer>
+    
+
+    <script>
+        let numbers = [];//lucky numbers
+
+        for(let i=0; i<6; i++){
+            numbers.push(Math.floor(Math.random() * (49 - 1) + 1));
+           
+        }
+
+        // -------------
+        const panel=document.querySelector(".panel");
+
+        console.log(numbers)
+        // panel.innerHTML=numbers;
+
+       
+        for(num of numbers){
+            panel.innerHTML+=`<div class="ball">${num}</div>`;
+            
+        }
+
+    </script>
+    
+</body>
+</html>

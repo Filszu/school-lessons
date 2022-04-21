@@ -1,0 +1,2 @@
+zmodyfikuj skrypt tak aby wyswietlaly sie zera przed godzinami, sekundami i minutami
+np. 01 a nie 1

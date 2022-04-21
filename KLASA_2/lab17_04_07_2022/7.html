@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8</title>
+</head>
+<div class="container"></div>
+<body>
+    <script>
+        const box = document.querySelector(".container");
+
+        function Samochod(marka,model,silnik, spalanie, cena_paliwa){
+            this.marka = marka;
+            this.model=model;
+            this.silnik=silnik;
+            this.spalanie = spalanie;
+            this.cena_paliwa = cena_paliwa;
+            this.koszt = function(){
+                return this.spalanie*this.cena_paliwa;
+            }
+        } 
+
+
+        const bmw1 =new Samochod("bwm", "xde3", "spalinowy",10,8);
+        console.log(bmw1)
+        console.log("bwm: "+bmw1.koszt());
+        const citroen1 =new Samochod("citroen", "bERLINGO", "spalinowy",7.5,6.8);
+        console.log("citroen1: "+citroen1.koszt())
+        const audi1 =new Samochod("audi", "misiso", "spalinowy",7.5,6.8);
+        console.log("audi: "+audi1.koszt())       
+        const toyota1 =new Samochod("toyota", "carolla", "spalinowy",8.5,6.8);
+        console.log("toyota: "+toyota1.koszt())
+        const mecedes =new Samochod("mercedes", "sedes", "spalinowy",6.5,6.8);
+        console.log("mercedes: "+mecedes.koszt())
+    </script>
+    
+</body>
+</html>

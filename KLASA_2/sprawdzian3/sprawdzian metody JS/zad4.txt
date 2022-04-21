@@ -1,0 +1,1 @@
+Napisz program na wyznaczanie silni. Wartość do obliczeń pobieramy od użytkownika.  Wynik wyświetlamy na stronie.

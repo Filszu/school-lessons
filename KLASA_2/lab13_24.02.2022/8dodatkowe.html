@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="panel"></div>
+    <script>
+        let pass="           haslo           ";
+        // let pass="haslo";
+        pass=pass.toUpperCase().trim();
+        
+        // pass.replace(" ","-")zamiana znaku
+        // const passTab=pass.split('');  
+        const passTab=pass.split('');   //trim usuwanie spacji zbędnych
+
+        console.log(passTab);
+        hashPass =[];
+        for( let a of passTab){
+            hashPass.push("_");
+        }
+
+        console.log(hashPass);
+        
+
+       
+
+        // --------
+
+        
+        const panel = document.querySelector(".panel");
+
+        
+       
+
+        // -------------
+        
+    
+        // alert("ypur letter"+letter);
+
+        // for(let i=0; i<pass.length; i++){
+        //     if(pass.charAt(i) == letter)
+        //     {
+        //         alert("jest");
+        //         hashPass[i] = letter;
+                
+        //     }
+        //     else{
+              
+        //         alert("nie ma takiej litery")
+        //     }
+        // }
+        
+        let r_answer, output;
+while (passTab!=hashPass){
+
+    output=hashPass.join("  ");
+     panel.innerHTML=output;//zamiana tab na string podzielona spacja
+     alert(output);
+     
+     letter=prompt("your letter: ");
+     letter=letter.toUpperCase();
+    letter=letter.substr(0,1);
+
+
+        r_answer=false
+
+        for (let i in passTab){
+
+            
+            // alert("i"+i);
+            // alert(passTab[i]);
+
+            if(passTab[i]==letter)
+            {
+                
+                // alert("jest");
+                hashPass[i] = letter;
+                r_answer=true;
+                alert("zgadłeś literę");
+                
+
+                
+            }
+           
+          
+        }
+        if(r_answer==false)alert("nie ma takiej litery");
+
+       
+
+
+        console.log(hashPass);
+        console.log(passTab)
+
+        
+
+}alert("bravo zgadłęś hasło")
+   
+        
+        
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

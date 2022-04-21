@@ -1,0 +1,9 @@
+Napisz kod, ktory wstawi suwak o zakresie 0 do 100 z id="suwak" wartość domyślna 0. Pod suwakiem w div id="liczba" ma się wyświetlać aktualnie ustawiona wartość.
+
+POMOC:
+Suwak powiazany jest ze zdarzeniem input.
+W treści strony definiujemy dwa elementy:
+suwak <input type="range"> zakres 0 do 100
+i div id="liczba" wartosc domyslna 0
+W reakcji na zmianę wartości suwaka - zmienia się wyświetlana liczba
+Zdarzenie obslugujemy metoda .addEventListener() 

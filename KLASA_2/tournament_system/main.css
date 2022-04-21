@@ -1,0 +1,139 @@
+html{
+    --main_color: white;
+    --bdr: 8px; /*border-radius*/
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+
+}
+
+body{
+    background-color: rgb(3, 46, 46);
+    color: var(--main_color)
+}
+
+.container, .container1{
+    
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    min-height: 500px;
+    display: flex;
+    
+}
+.round{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+     */
+     justify-content: space-around;
+     /*flex-basis: 100%; /*rozciągnij na max*/
+     /* flex-basis: 12%; */
+
+}
+
+.round:last-child{
+    background-color: gold;
+
+}
+.round:last-child .player_box:last-child::after{
+    font-weight: bold;
+    content: " - winner";
+
+}
+
+/* .round:last-child::after{
+    content: "winner";
+    
+} */
+
+.player_box{
+    background-color: tomato;
+    /* padding: 15px; */
+    margin: 5px 10px 5px;
+    border-radius: var(--bdr);
+
+
+    
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    
+    /* width: 100%; */
+    
+
+    /* dodatkowe */
+    /* flex-basis: 100%;   */  /* ładnie widać kto przechodzi*/
+    /* height: 20px;
+    
+    border-bottom: 10px solid rgb(250, 87, 58); */
+}
+
+
+.player_box::before{
+    content: "";
+    width: 10px;
+    height: 100%;
+    background-color: crimson;  
+    border-radius:  var(--bdr) 0 0 var(--bdr); 
+}
+
+.player_box:nth-child(2n)::before{
+    /* content: "";
+    width: 10px;
+    height: 100%; */
+    background-color: rgb(20, 33, 220);   
+    
+}
+
+.player_name{
+
+    /* margin: 0 5px 0 0; */
+    padding: 15px;
+}
+
+
+.player_points{
+    
+    /* width: 25px;
+    height: 25px; */
+    /* height: 100%;
+     */
+
+    /*OPTION 1---------------------------------*/
+    /* height: 25px;
+    width: 25px;
+    border: 2px dotted white;
+
+    margin: 0 15px 0 0; */
+
+    /*---------------------------------OPTION 1*/
+
+    /*OPTION 2---------------------------------*/
+    height: 50px;
+    width: 50px;
+    border-radius: 0 var(--bdr) var(--bdr) 0;
+
+    /*---------------------------------OPTION 2*/
+
+
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+   
+    background-color: rgb(253, 38, 0);
+    
+}
+
+
+
+

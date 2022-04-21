@@ -1,0 +1,10 @@
+Napisz kod, który wyświetli trzy przyciski, podpisane jeden, dwa, trzy. Kliknięcie na każdy z nich ma wyświetlić napis, kliknąłeś na przycisk.
+
+POMOC:
+Metoda .querySelectorAll() wybiera wszystkie elementy
+spełniające kryterium np. znaczniki button.
+Wynik tego wyboru np. zmienna przyciski - jest spisem - tablicą danych.
+Elementy tej tablicy można z niej wybierać za pomocą pętli 
+for(const przycisk of przyciski)
+W wyniku działania pętli, każdemu przyciskowi
+przyporządkowane jest zdarzenie.

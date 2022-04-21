@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(15, 15, 32);
+    color: white;
+}
+
+.container{
+    width: 1000px;
+    min-height: 600px;
+    border: 1px dashed yellow;
+    display: flex;
+    
+}
+
+
+.round{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: stretch; */
+    justify-content: space-around;
+}
+.player_box{
+    width: 100%;
+    /* height: */
+    background-color: cadetblue;
+    padding: 15px;
+
+}
+
+
+

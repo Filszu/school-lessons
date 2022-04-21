@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(1, 11, 41);    
+    margin:0;
+    color: white;
+}
+
+.container{
+
+    margin: auto;
+    width: 800px;
+    background-color: rgb(194, 47, 60);
+    background-image: url("a.png");
+    min-height: 800px;
+   
+}
+
+.pozycje{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(12, 14, 155);
+
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    
+
+}
+

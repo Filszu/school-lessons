@@ -1,0 +1,6 @@
+Napisz kod, który po naciśnięciu przycisku z podpisem Pokaż przepisze wartość z pola tekstowego type="number" do div id="wynik". Liczbę wypisz jako nagłówek 1 stopnia. Sprawdź w konsoli typ odczytanej wartości.
+
+POMOC
+W zadaniu nalezy wykorzystac poznana wczesniej metode addEventListener.
+Do odczytania wartości stosujemy właściwość
+.value

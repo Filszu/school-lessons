@@ -1,0 +1,7 @@
+JAVASCRIPT (FRONT-END)
+
+Mianem front-endu określa się technologie webowe, których kody źródłowe wykonywane są przez procesor po stronie klienta (czyli w praktyce przez przeglądarkę internetową lokalnego komputera). Jako że pliki te muszą na nasz lokalny komputer trafić z serwera przed ich wykonaniem, to rzecz jasna do tych kodów można zupełnie otwarcie zajrzeć – są one, jak to mówimy: jawne. Do front-endowych technologii zaliczymy przede wszystkim: HTML, CSS i JavaScript. Przy czym oczywiście przeznaczenie każdej z tych front-endowych technologii webowych jest nieco inne.
+
+JavaScript to pełnoprawny, skryptowy język programowania, w którym możemy zastosować cały repertuar klasycznych konstrukcji językowych (instrukcje warunkowe, pętle, zmienne, tablice, instrukcje wyboru, własne funkcje, klasy itd.). JavaScript (nie mylić z językiem Java, to co innego) to potężny front-endowy kombajn, za pomocą którego możemy tworzyć wyjątkowe od strony designu i interfejsu witryny.
+
+Na samym początku JS'a używamy najczęściej do ulepszenia interfejsu strony, wzbogacając ją o dodatkowe funkcjonalności, niedostępne w HTML czy CSS. Skrypty JS pozwolą nam tworzyć efektowne slidery, animowane galerie zdjęć, wyskakujące panele z nawigacją, interaktywne menu, zegary, animacje itd. Z czasem jednak przekonamy się, że to był jedynie wstęp do prawdziwej potęgi tego języka (w pewnych zastosowaniach JS spełnia obecnie także rolę back-endową).

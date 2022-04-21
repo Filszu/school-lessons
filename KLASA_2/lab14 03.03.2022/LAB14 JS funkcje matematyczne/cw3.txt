@@ -1,0 +1,8 @@
+Napisz program, który dla podanego promienia >0 oblicza pole koła i jego obwód. Do pobrania danych od użytkownika wykorzystaj okno dialogowe.
+
+POMOC:
+W zadaniu zastosuj metody: 
+prompt()
+Number()
+Math.pi()
+Math.pow()

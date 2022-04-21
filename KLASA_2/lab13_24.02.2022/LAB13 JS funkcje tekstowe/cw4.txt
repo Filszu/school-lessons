@@ -1,0 +1,4 @@
+Tekst z cw1 wypisz do div-a i umieść w znaczniku <h3>. Ponownie wypisz tekst, tym razem do nowego div-a, ale ma się on składać tylko z dużych liter.
+
+POMOC:
+Metoda toLocaleUpperCase() wszystkie litery w tekście zamienia na duże. 

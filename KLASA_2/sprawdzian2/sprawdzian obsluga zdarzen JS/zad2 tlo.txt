@@ -1,0 +1,7 @@
+Dodaj do strony projektu biuro podrozy GLOB
+przyciski umozliwiajace zmiane koloru tla na ciemniejszy
+oraz na powrot do koloru bialego
+
+POMOC:
+Do zmiany koloru strony mozesz np. uzyc:
+document.body.style.backgroundColor = 'kolor';

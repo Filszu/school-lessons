@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>1   -   JS</title>
+</head>
+<body>
+
+    <div id="wynik">wynik: </div>
+
+    <script>
+        window.onload=sum;
+        function sum(){
+            const wynik = document.querySelector('#wynik');
+            // const wynik = document.getElementById('wynik');
+            var a=5, b=25;
+            wynik.innerHTML="wynik: "+a+"+"+b+"="+(a+b);
+        }
+        
+    </script>
+    
+</body>
+</html>

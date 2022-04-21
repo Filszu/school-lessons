@@ -1,0 +1,6 @@
+Napisz kod HTML, który wyświetli tabelę z dwoma kolumnami. W pierwszej kolumnie mają być liczby od 0 do 9. W drugiej kolumnie mają się znajdować drugie potęgi liczb z pierwszej kolumny. Napisz, kod CSS, który wyświetli krawędzie.
+
+POMOC:
+Główna część kodu HTML tabelki powstanie wewnątrz pętli for. 
+Znaczniki rozpoczynające i kończące tabelę dołączane zostaną poza pętlą, gdyż wystąpią tylko raz. 
+Kod HTML zostanie wstrzykniety do div-a np. o id="dane"

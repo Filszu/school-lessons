@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+
+</head>
+<body>
+
+    <!-- id="powitanie" odpowiedni komunikat uzalezniony od pory dnia wg schematu:
+6.00 - 16.00 "dzień dobry"
+17.00 - 22.00 "dobry wieczór"
+23.00 - 5.00 "dobranoc" -->
+
+    <div id="powitanie"></div>
+    <script>
+        const label = document.querySelector('#powitanie');
+        const time = new Date();
+        let h= time.getHours();
+        let min= time.getMinutes();
+        
+      
+
+       
+        
+        let say="hello";
+        if(h>=6 && h<=16) say="Dzień dobry";
+        else if(h>=17 && h<=22) say="Dobry wieczór";
+		else if(h>=23 || h<=5) say="Dobranoc";
+        //else say="Dobranoc";
+        
+
+        (min<10) ? min="0"+min : "";
+        (h<10) ? h="0"+h : "";
+
+        label.innerHTML = `${say}! Jest godzina ${h}:${min}`;
+      
+
+
+        
+    </script>
+    
+</body>
+</html>

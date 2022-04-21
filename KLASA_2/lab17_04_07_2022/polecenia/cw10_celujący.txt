@@ -1,0 +1,1 @@
+Zmodyfikuj zadanie z cw9, tak aby użytkownik mógł zdecydować czy interesują go dane dla pojazdów z silnikami benzynowymi czy wysokoprężnymi i wyświetlamy tylko dane, które użytkownik wybierze.

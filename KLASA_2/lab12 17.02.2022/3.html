@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+</head>
+<body>
+    <div class="container"></div>
+    <script>
+        const con = document.querySelector(".container");
+
+        const koledzy = ["Filip Szumowski", "Irwyd Wydrzyński", "KAcper Ocimek", "Konrad Konopka", "Alex Pierdyka"];
+
+
+        koledzy.fill("dane zastrzeżone",2,4);
+        con.innerHTML = koledzy.join(", ");
+    </script>
+</body>
+</html>

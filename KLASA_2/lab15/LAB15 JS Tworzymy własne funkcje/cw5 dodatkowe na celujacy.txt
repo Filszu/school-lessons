@@ -1,0 +1,1 @@
+Przygotuj własną funkcję, która oblicza jakieś ciekawe zadanie matematyczne (rozwiązuje jakiś matematyczny problem) według zadanego wzoru. Wyniki i ewentualne dane wyświetl i pobierz za pomocą internetowej przeglądarki i atrakcyjnie sformatuj.

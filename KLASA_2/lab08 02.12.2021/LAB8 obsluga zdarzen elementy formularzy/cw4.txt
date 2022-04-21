@@ -1,0 +1,2 @@
+Utwórz listę select z nazwami kontynentow,
+wybranie danego kontynentu ma wyswietlać nazwę i wysokość najwyższego szczytu na tym kontynencie.

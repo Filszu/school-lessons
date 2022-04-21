@@ -1,0 +1,7 @@
+Utwórz 3 elementy typu: przycisk, div-a i span. 
+Kliknięcie na którykolwiek z nich ma wypisywać identyfikator (id) klikniętego elementu.
+W zadaniu zastosuj this. 
+
+POMOC:
+Do wykonania zadania mozna np. uzyc metody .querySelectorAll(), ktora bedzie wybierala elementy wskazane np. atrybutem class="elementy" 
+Za pomoca this wskazujemy na aktualnie wybrany elementy np. ostatnio kliknięty jego użycie jest powszechne i wygodne.

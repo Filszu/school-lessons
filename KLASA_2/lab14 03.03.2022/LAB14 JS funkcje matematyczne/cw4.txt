@@ -1,0 +1,9 @@
+Wykonaj maszynę losującą dla LOTTO, czyli, wylosuj 6 przypadkowych liczb z zakresu od 1 do 49.  
+
+POMOC:
+Dla wywołania kolejnych losowań skorzystaj z pętli for. 
+Odpowiedniej metody do losowania poszukaj w opisie obiektu Math.
+
+Dodatkowo na celujący:
+Przygotuj atrakcyjne formatowanie dla wyświetlanych wyników na stronie (css, grafika, przycisk losujący, itp.)
+

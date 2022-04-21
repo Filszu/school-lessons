@@ -1,0 +1,4 @@
+Analogicznie do funkcji z cw2 napisz funkcje do obliczania pola prostokąta.
+
+POMOC:
+W zadaniu tym musisz pobrać od użytkownika długość boków a i b

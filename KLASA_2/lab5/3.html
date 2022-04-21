@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table js</title>
+</head>
+
+<style>
+    table, th ,td{
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <div id="container">
+
+        <table>
+            <tr>
+                <td>aa</td>
+                <td>aa</td>
+            </tr>
+            <tr>
+                <td>bb</td>
+                <td>bb</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <script>
+
+        window.onload=showTable();
+
+        function showTable(){
+            const el=document.querySelector('#container');
+
+
+
+            let table="<table><tr><td>i</td><td>i^2</td></tr>";
+            for (let i=1; i<11; i++){
+                    table+=`<tr><td>${i}</td><td>${i*i}</td></tr>`;
+                    // table+="<tr><td>i</td><td>i^2</td></tr>"
+
+            }
+
+            table+="</table>";
+            el.innerHTML=table;
+
+
+
+        }
+        
+       
+
+
+
+    </script>
+    
+</body>
+</html>

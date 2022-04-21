@@ -1,0 +1,17 @@
+Napisz funkcję sumator. Do funkcji można przekazać dowolną liczbę argumentów. W div-ie ma wypisywać podane argumenty i ich sumę. Skorzystaj z tzw. rest parametr. Argumenty pobieramy od uzytkownika za pomocą okna dialogowego minimum 5 razy (np. w pętli do utworzonej wcześniej tablicy).
+
+POMOC:
+Rest parameter umożliwia rozbijanie iterowanej wartości na składowe. 
+Używamy go jako parametr funkcji np.
+
+function wypiszLiczby(...argumenty) {
+     console.log(argumenty); /* wypisze w konsoli liczby podane jako argumenty - dowolną ich liczbę. */
+}
+/* przyklady wywolania: */
+wypiszLiczby(2,7,9,11,32);
+wypiszLiczby(12,7);
+wypiszLiczby(124);
+
+Umożliwia on zbieranie w jedną zmienną - będącą tablicą - wielu parametrów przekazywanych do funkcji. 
+Jeśli skladniki to tablica to można po niej iterować np. pętlą for-of.
+

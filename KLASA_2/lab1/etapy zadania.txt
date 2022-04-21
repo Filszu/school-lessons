@@ -1,0 +1,130 @@
+plik html
+----------
+
+1. Umieszczamy w sekcji head informacje o wykorzystaniu na stronie skryptu typu js
+...
+<script type="text/javascript"></script>
+...
+
+2. W sekcji body tworzymy kontener do wyswietlania wyniku dzialania skryptu i nadajemy mu jakis unikatowy identyfikator
+...
+<div id="zegar">
+</div>
+...
+
+3. Pomiedzy znacznikami 
+
+<script type="text/javascript">
+</script>
+
+wprowadzamy kod JS:
+
+pobranie daty i czasu z systemu, za pomocą obiektu klasy Date() do zmiennej dzisiaj
+var dzisiaj = new Date(); 
+
+obiekt ten zawiera wiele zmiennych (dzien, miesiac, rok, godzina, minuta, sekunda), musimy sie do nich jakos dostac.
+W zwiazku z tym odwolujemy sie do tych zmiennych obiektu, ktore interesuja nas w danym momencie.
+Robimy to poprzez odpowiednie funkcje JS obslugujace obiekt Date(). 
+Nazwy ich mozemy znalezc w Internecie np. na stronie:
+https://www.w3schools.com/jsref/jsref_obj_date.asp
+
+okreslamy dzien miesiaca za pomoca funkcji getDate() i przechowujemy w zmiennej dzien
+var dzien = dzisiaj.getDate();
+
+okreslamy miesiac za pomoca funkcji getMonth() i przechowujemy w zmiennej miesiac
++1 jest potrzebne ze wzgledu na numeracje miesiecy od wartosci 0.
+var miesiac = dzisiaj.getMonth()+1;
+
+okreslamy rok za pomoca funkcji getFullYear() i przechowujemy w zmiennej rok
+var rok = dzisiaj.getFullYear();
+
+analogicznie godziny, minuty, sekundy:
+var godzina = dzisiaj.getHours();
+var minuta = dzisiaj.getMinutes();
+var sekunda = dzisiaj.getSeconds();
+
+UWAGA!!! W JS nie definiujemy typu zmiennych jak np. w C++!
+
+Teraz potrzebujemy instrukcje, ktore wyswietla nam na ekranie dane z pamieci RAM umieszczone w naszych zdefiniowanych zmiennych. Dane te maja znalezc sie w przygotowanym wczesniej kontenerze 
+o id="zegar"
+
+zaczynamy od skopiowania i wklejenia pod kontenerem ponownie znacznikow script
+...
+<div id="zegar">
+</div>
+<script type="text/javascript">
+</script>
+...
+inaczej skrypt w sekcji head nie bedzie w stanie zauwazyc naszego kontenera, wynika to z tego, ze przegladarka wykonuje kod linia po linii (problem ten mozna obejsc poprzez utworzenie funkcji i pozniejsze jej wywolanie w sekcji body).
+
+Pomiedzy znacznikami 
+<script type="text/javascript">
+</script>
+w sekcji body wprowadzamy kod JS:
+document.getElementById("zegar");
+w ten sposob mowimy przegladarce wez caly dokument i wyszukaj w nim element, ktory ma przypisyna identyfikator o nazwie zegar.
+
+teraz trzeba do kontenera wstawic date pobrana wczesniej z naszego systemu:
+modyfikujemy: document.getElementById("zegar"); i zmieniamy na:
+document.getElementById("zegar").innerHTML = dzien+"/"+miesiac+"/"+rok+" | "+godzina+":"+minuta+":"+sekunda;
+tym samym resetujemy za pomoca metody innerHTML kontener zegar (jesli cos tam wczesniej bylo) i uzupelniamy nasza data
+
+UWAGA!!! cudzyslow w JS oznacza slowo, a jego brak zawartosc zmiennej!
+UWAGA!!! znak + w JS laczy ze soba lancuchy znakow (klejenie tzw. konkatenacja)!
+
+pozostalo odswiezanie czasu co 1 sekunde
+
+wykonamy to z pomoca funkcji (podprogramu), ze wzgledu na mozliwosc wielokrotnego powtorzenia kodu odczytujacego date i czas z systemu.
+
+w head definiujemy w sekcji script funkcje o nazwie odliczanie
+<script type="text/javascript">
+function odliczanie()
+	{
+	var dzisiaj = new Date();
+	...
+	}
+</script>
+
+i na koncu tej funkcji umieszczamy instrukcje, ktora ponownie ja wywola po uplywie sekundy,
+w tym celu uzyjemy funkcji JS o nazwie setTimeout funkcja ta wywoluje inna funkcje zgodnie z okreslonym interwalem czasowym.
+<script type="text/javascript">
+function odliczanie()
+	{
+	var dzisiaj = new Date();
+	...
+	setTimeout("odliczanie()",1000);
+	}
+</script>
+
+przegladarka jednak nie uruchamia funkcji automatycznie po zaladowaniu strony dlatego tez musimy do sekcji body dodac
+<body onload="odliczanie();">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

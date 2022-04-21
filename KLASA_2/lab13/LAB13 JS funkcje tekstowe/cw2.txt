@@ -1,0 +1,8 @@
+Z tekstu z cw1 wypisz do div-a 10 znaków począwszy od 5 znaku tekstu.
+
+POMOC:
+W zadaniu zastosuj metodę substr()
+Metoda substr() zwraca fragment tekstu. Podajemy 2 argumenty:
+-znak od którego ma się rozpocząć "zwracanie"
+-liczba znaków jaka ma być zwrócona, BRAK drugiego parametru spowoduje
+zwrócenie tekstu do samego końca.

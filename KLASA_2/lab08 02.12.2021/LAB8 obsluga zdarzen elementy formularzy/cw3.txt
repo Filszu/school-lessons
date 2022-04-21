@@ -1,0 +1,4 @@
+Utwórz prosty kalkulator do sumowania dwoch liczb
+
+POMOC
+Wykorzystaj kod z cw1 i cw2

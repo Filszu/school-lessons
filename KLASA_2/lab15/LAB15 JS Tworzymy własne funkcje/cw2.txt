@@ -1,0 +1,9 @@
+Napisz własną funkcję, która dla podanego promienia >0 oblicza pole koła. Do pobrania danych od użytkownika wykorzystaj okno dialogowe. Wynik wyświetl w nagłówku <h3>
+
+POMOC:
+Funkcję definiujemy używając słowa kluczowego function i podające nazwę
+funkcji. W przypadku funkcji z argumentami. Argumenty podajemy w nawiasie().
+Działania, które wykonuje funkcja znajdują się pomiędzy {}.
+
+Wywołując funkcję zamiast nazwy argument podajemy jego wartość
+np. poleKola(r), gdzie r to zmienna, w której znajduje się promień

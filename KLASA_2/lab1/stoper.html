@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEGAR</title>
+</head>
+<body>
+    <main>
+        <div id="clock">
+           
+
+        </div>
+    
+    </main>
+
+    <script>
+        
+
+        //---------------------------
+        
+
+        window.onload = getTime();
+
+        function getTime(){
+            let time = new Date();
+            //alert("ddd");
+            var hour = time.getHours();
+            var minute = time.getMinutes();
+            var second = time.getSeconds();
+
+            increase();
+
+        }
+
+        var seconds=0;//do obliczeń
+        var minutes=0;
+        var hours=0;
+
+        
+
+        function increase(){ //+1sec
+            
+            seconds++;
+
+            if(seconds>60)
+            {
+                minutes++;
+                seconds=0;
+            }
+            if(minutes>60){
+                hours++;
+                minutes=0;
+            }
+
+            document.getElementById("clock").innerHTML=hours+":"+minutes+":"+seconds;
+            //alert(seconds);
+                
+            setTimeout(increase,100);
+
+
+
+        }
+
+
+        function timer(){
+            
+            if(second<10)
+            {
+                second="0"+second;
+            }
+
+            if(minute<10){
+                minute="0"+minute;
+            }
+
+            if(hour<10){
+                hour="0"+hour;
+                //alert("zzz");
+            }
+
+            var output_time = "TIME: "+hour+":"+minute+":"+second;
+
+            document.getElementById("clock").innerHTML=output_time;
+
+            //alert(hour);
+
+            //setTimeout("timer()", 1000);
+            setTimeout(timer,1000);
+        }
+        
+
+        
+        
+
+
+    </script>
+    
+</body>
+</html>

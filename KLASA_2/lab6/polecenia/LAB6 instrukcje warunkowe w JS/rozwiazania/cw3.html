@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script - ćwiczenia</title>
+</head>
+<body>
+    <div id="opis"></div>
+    <script>
+        /* OPIS
+            Jeśli warunek - liczba>0 -  jest spełniony wypisywana jest liczba i tekst: 
+            "Liczba większa od zera" jeśli, jeśli spełniony jest 2 warunek - liczba==0 - 
+            ma się wyświetlać liczba i tekst: "Zero". Jeśli zaś oba warunki nie są spełnione 
+            wyświetla się liczba i tekst "Liczba ujemna."
+        */
+        
+        //pobierz wartość zmiennej liczba
+        let liczba=prompt("Podaj liczbę: ");
+
+
+        //wypisywanie tekstu zależnie od wartości zdefiniowanej zmiennej   
+        if(liczba>0){
+            opis.innerHTML ='<h2>Liczba większa od zera.</h2>';
+        }
+        else if (liczba==0) {
+            opis.innerHTML ='<h2>Zero.</h2>';
+        }
+        else {
+            opis.innerHTML ='Liczba ujemna.</h2>';
+        }
+    </script>
+</body>
+</html>
+       

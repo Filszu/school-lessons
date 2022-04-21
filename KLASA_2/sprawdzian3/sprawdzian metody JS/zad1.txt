@@ -1,0 +1,10 @@
+Utwórz tablicę z twoimi danymi osobowymi:
+
+imie
+nazwisko
+wiek
+wzrost
+
+Dane wyświetl na stronie w taki sposób aby imie i nazwisko były inaczej sformatowane niż wiek i wzrost np. inny kolor czcionki, tło, krój itp.
+
+W konsoli wyświetl rozmiar tablicy.

@@ -1,0 +1,4 @@
+Tekst z cw1 wypisz do div-a i umieść w znaczniku <h3>. Ponownie wypisz tekst, tym razem do nowego div-a, ale ma się on składać tylko z małych liter.
+
+POMOC:
+Metoda toLocaleLowerCase() zamienia wszystkie litery w tekście na małe

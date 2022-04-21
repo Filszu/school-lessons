@@ -1,0 +1,1 @@
+Przypisz do dwóch różnych zmiennych dowolne liczby zmienno przecinkowe z 2 i 4 miejscami po przecinku. Zastosuj na zmiennych metodę round() i wyświetl uzyskane wyniki oraz tekst opisujący działanie tej metody.

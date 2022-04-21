@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9</title>
+</head>
+<div class="container"></div>
+<body>
+    <script>
+        const box = document.querySelector(".container");
+
+        function Samochod(marka,model,silnik, spalanie, cena_paliwa){
+            this.marka = marka;
+            this.model=model;
+            this.silnik=silnik;
+            this.spalanie = spalanie;
+            this.cena_paliwa = cena_paliwa;
+            this.koszt = function(){
+                return this.spalanie*this.cena_paliwa;
+            }
+        } 
+
+
+        let cars = [];
+        const bmw1 =new Samochod("bwm", "xde3", "spalinowy",10,8);
+        // console.log(bmw1)
+        // console.log(bmw1.koszt());
+        const citroen1 =new Samochod("citroen", "bERLINGO", "spalinowy",7.5,6.8);
+        // console.log(citroen1.koszt())
+        const audi1 =new Samochod("audi", "misiso", "spalinowy",7.5,6.8);
+        const toyota1 =new Samochod("toyota", "carolla", "spalinowy",8.5,6.8);
+        const mecedes =new Samochod("mercedes", "sedes", "spalinowy",6.5,6.8);
+        cars.push(bmw1,citroen1,audi1,toyota1,mecedes);
+
+
+        //-zmiana ceny paliwa
+        const cenaPaliwa = Number(prompt("Podaj nowa cene paliwa"));
+        // cars[0].cena_paliwa=5.5;
+        for(i of cars){
+            i.cena_paliwa=cenaPaliwa;
+            console.log(i.marka+': '+i.koszt())
+        }
+        console.log(cars)
+        // console.log(bmw1.koszt())
+        
+
+    </script>
+    
+</body>
+</html>

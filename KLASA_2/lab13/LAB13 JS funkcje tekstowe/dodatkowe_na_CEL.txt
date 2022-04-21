@@ -1,0 +1,1 @@
+Zaprezentuj jakiś ciekawy przykład z wykorzystaniem funkcji (metod) tekstowych. W kodzie umieść precyzyjny opis zastosowanych przez Ciebie rozwiazan.

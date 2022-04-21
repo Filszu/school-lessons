@@ -1,0 +1,5 @@
+Zmodyfikuj kod z cw1 tak by wypisywała się 3 potęga wpisanej liczby
+
+POMOC
+Odczytana wartość jest typu string.
+Dlatego koniecznie należy użyć funkcji Number(), która przekonertuje tekst na liczbę.

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+</head>
+<body>
+    <input type="range" name="1" id="range1" value="0" min="0" max="255">
+    <label id="label1" for="1">0</label>
+    <input type="range" name="2" id="range2" value="0" min="0" max="255">
+    <label id="label2" for="2">0</label>
+    <input type="range" name="3" id="range3" value="0" min="0" max="255">
+    <label id="label3" for="3">0</label>
+
+    <script>
+        const range = document.querySelectorAll("input");
+        const labels = document.querySelectorAll("label");
+        const body = document.querySelector("body");
+        
+        let r=0,g=0,b=0;
+
+        range.forEach(el => {
+            el.addEventListener("input", function(){
+               
+                const pos=el.name-1;
+                let r_value=el.value;
+                labels[pos].innerHTML=r_value;
+
+                switch (pos){
+                    case 0:
+                        r=r_value;
+                        break;
+                    case 1:
+                        g=r_value;
+                        break;
+                    case 2:
+                        b=r_value;
+                        break;
+                }
+
+                body.style.backgroundColor=`rgb(${r},${g},${b})`;
+            })
+        });
+
+       
+        
+    </script>
+</body>
+</html>

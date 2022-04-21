@@ -1,0 +1,30 @@
+Zdefiniuj obiekt o nazwie uczen, z następującymi właściwościami: 
+
+imie: "Twoje imie np. Kamil",
+nazwisko: "Twoje nazwisko np. Kowalski",
+rok: "Twoj rok urodzenia np. 2005"
+
+Wszystkie informacje wyswietl na stronie
+
+
+POMOC:
+Obiekty w JavaScript możemy tworzyć na dwa podstawowe sposoby:
+
+1> object literal, czyli deklarujemy nasz obiekt tak jak każdą podstawową zmienną.
+np.
+const oferta = {
+            marka  : "Kia",
+            model : "Carens",
+	    cena : 65000,}
+
+2> użycie słowa kluczowego new, dzięki czemu tworzymy nowy obiekt nie posiadający żadnego property
+np.
+const oferta = new Object();
+
+oferta.marka = "Kia";
+oferta.model = "Carens";
+oferta["cena"] = 65000;
+
+
+
+

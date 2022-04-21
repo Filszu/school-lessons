@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEGAR</title>
+</head>
+<body>
+    <main>
+        <div id="clock">
+           
+
+        </div>
+    
+    </main>
+
+    <script>
+        
+
+        //---------------------------
+        
+
+        window.onload = timer();
+
+
+        function timer(){
+            
+            let time = new Date();
+            //alert("ddd");
+            var hour = time.getHours();
+            var minute = time.getMinutes();
+            var second = time.getSeconds();
+
+            var output_time = "TIME: "+hour+":"+minute+":"+second;
+
+            document.getElementById("clock").innerHTML=output_time;
+
+            setTimeout(timer,1000);
+        }
+        
+
+        
+        
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,5 @@
+Tekst z cw1 wypisz do div-a i umieść w znaczniku <h3>. Poniżej do nowego div-a, wypisz: słowo JavaScript zaczyna się od ... znaku.
+
+POMOC:
+Metoda indexOf() zwraca informację, od którego znaku zaczyna się tekst
+podany jako argument.

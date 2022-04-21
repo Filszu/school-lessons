@@ -1,0 +1,6 @@
+Utwórz funkcję bez argumentów, która wypisuje w przegladarce tekst: "Ten tekst został wygenerowany dzięki Mojej własnej funkcji" w nagłówku <h3>.
+
+POMOC:
+Funkcję definiujemy używając słowa kluczowego function i podające nazwę
+funkcji. W przypadku funkcji bezargumentowych, po nazwie następują nawiasy.
+Działania (instrukcje), które wykonuje funkcja znajdują się pomiędzy nawiasami klamrowymi {}.

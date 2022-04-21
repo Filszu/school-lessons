@@ -1,0 +1,5 @@
+Pobierz od użytkownika liczbę. Jeśli będzie dodatnia w div-ie z id="opis" ma się wyświetlić tekst "Liczba większa od zera." napisany jako nagłówek 1 stopnia. Jeśli nie ma się pokazać np. tekst: "Zero lub liczba ujemna.".
+
+POMOC:
+Do pobrania liczby użyj instrukcji prompt().
+Do sprawdzenia zastosuj instrukcje warunkowa if else.

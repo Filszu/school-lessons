@@ -1,0 +1,8 @@
+Napisz kod, który dla zdefiniowanej szkolnej oceny (1,2,3,4,5,6) lub pobranej od użytkownika w formie liczby, wypisze jej opis słowny np. dostateczny. Informacja ma być wypisana w div-ie id="oceny". Jeśli użytkownik poda ocenę z poza zakresu poinformuj go o tym.
+
+POMOC:
+Należy skorzystać z instrukcji switch, która porównuje wartość zadaną
+z przypadkami case{}, które ma zdefiniowane, jeśli wartość zadana spełnia, 
+któryś z warunków wykonywany jest dany fragment kodu. 
+Jeśli nie jest spełniony żaden z warunków, wykonywany jest kod deafult{}
+

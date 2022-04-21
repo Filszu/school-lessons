@@ -1,0 +1,6 @@
+Zmodyfikuj metodę wiekUcznia() z cw2, tak by zwracała odpowiednio 0 lat, 1 rok, 2 lata, 3 lata, 4 lata, 5 lat, 6 lat ...
+Rocznik pobieraj od użytkownika. 
+Ustal obsługiwany metodą zakres wieku od 0 do 110 lat.
+
+POMOC:
+Mechanizm mozna zrealizowac za pomocą instrukcji if, instrukcji swich lub tablicy. 

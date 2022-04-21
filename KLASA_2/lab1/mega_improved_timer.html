@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEGAR</title>
+</head>
+<body>
+    <main>
+        <div id="clock">
+            00:00:00
+
+        </div>
+    
+    </main>
+
+    <script>
+        
+
+        //---------------------------
+        
+
+        window.onload = getTime();
+
+        var hour, hours;
+        var minute, minutes;
+        var second,seconds;
+
+        function getTime(){
+            let time = new Date();
+            //alert("ddd");
+            hour = time.getHours();
+            minute = time.getMinutes();
+            second = time.getSeconds();
+
+            //przypisz te do obliczen
+            seconds=second;//do obliczeń
+            minutes=minute;
+            hours=hour;
+
+            increase();
+
+        }
+
+        
+        var s=0;//dodałem tez zmienne pomocniecze ale mozna zrobic prosciej ale nie chcialem mieszac stringa z intem bo mogloby wywalic blad
+        var m=0;
+        var h=0;
+        
+
+        function increase(){ //+1sec
+            
+            seconds++;
+
+            if(seconds>60)
+            {
+                minutes++;
+                seconds=0;
+            }
+            if(minutes>60){
+                hours++;
+                minutes=0;
+            }
+
+
+            //WRITE wizualnie  dodaj zero
+            
+            s=seconds;
+            m=minutes;
+            h=hours;
+
+            if(seconds<10)
+            {
+                s="0"+seconds;
+            }
+
+            if(minutes<10){
+                m="0"+minutes;
+            }
+
+            if(hours<10){
+                h="0"+hours;
+               
+            }
+
+       
+
+            // var output_time = "TIME: "+hours+":"+minutes+":"+seconds;
+            var output_time = "TIME: "+h+":"+m+":"+s;
+            // alert(seconds);
+
+            document.getElementById("clock").innerHTML=output_time;
+
+                
+            setTimeout(increase,1000);
+
+
+
+        }
+
+
+    
+        
+
+        
+        
+
+
+    </script>
+    
+</body>
+</html>

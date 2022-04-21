@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+</head>
+<style>
+body{
+    background-color: rgb(0,0,0);
+    color: white;
+}
+</style>
+<body>
+    <input type="range" name="range1" id="range1" value="0" min="0" max="255">
+    <label for="range1">0</label>
+    <script>
+        const range1 = document.querySelector("#range1");
+        const label = document.querySelector("label");
+        range1.addEventListener('input', function(){
+            let red =range1.value;
+            label.innerHTML=red;
+            document.querySelector("body").style.backgroundColor=`rgb(${red}, 0,0)`;
+            // document.querySelector("body").style.backgroundColor=`rgb(${red}, ${red},${red})`;
+
+        })
+    </script>
+</body>
+</html>

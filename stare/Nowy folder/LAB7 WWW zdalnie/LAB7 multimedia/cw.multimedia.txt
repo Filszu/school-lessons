@@ -1,0 +1,7 @@
+Otwórz w edytorze HTML stronę stworzoną w ramach poprzednich ćwiczeń związaną z rewolucją przemysłową (ćw.2.10).
+
+Utwórz dokument w formacie pdf z licencją zawierającą informacje o prawach autorskich Twojej strony: kto jest jej autorem, jakie są zasady korzystania z niej (czy można kopiować treść i używać ją do celów komercyjnych) itp. W tym celu możesz skorzystać np. 
+z programu:
+Libre Office - darmowy pakiet biurowy
+
+Użyj techniki zagnieżdżania plików multimedialnych, aby umieścić dokument licencji bezpośrednio w stronie.

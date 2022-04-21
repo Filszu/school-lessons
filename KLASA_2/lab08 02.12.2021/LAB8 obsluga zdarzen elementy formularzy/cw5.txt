@@ -1,0 +1,1 @@
+Zmodyfikuj strone z cw4 tak aby wybranie danego kontynentu wyswietlalo jego fotografie satelitarna. Wysokosc fotografi ustal na 600px.

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+</head>
+<body>
+    <div id="oceny"></div>
+    <script>
+   
+
+        
+        const grade_desc=document.querySelector('#oceny');
+
+        let ocena=prompt("ocena: ");
+        let desc ="<h2>";
+
+
+
+        // if(isNaN(Number(ocena))){
+        
+        switch(ocena){
+            case "1":
+                desc+='niedostateczny';
+                break;
+            case "2":
+                desc+='dopuszczający';
+                break;
+            case "3":
+                desc+='dostateczny';
+                break;
+            case "4":
+                desc+='dobry';
+                break;
+            case "5":
+                 desc+='bardzo dobry';
+                break;
+            case "6":
+                desc+='celujący';
+                break;
+            default:
+                desc+='nieznana ocena';
+           }
+        
+           desc+="</h2>";
+           grade_desc.innerHTML=desc;
+    
+    </script>
+    
+</body>
+</html>

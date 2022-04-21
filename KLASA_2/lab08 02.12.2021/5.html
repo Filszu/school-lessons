@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+</head>
+<style>
+    img{
+        height: 600px;
+    }
+</style>
+<body>
+    <select name="kontynenty" id="kontynenty">
+        <!-- <option value='Europa: 4811 m n.p.m., Mont Blanc <img src="Europe.jpg" alt="img">'>Europa</option> -->
+        <option value='Europe' >Europa</option>
+        <option value='Asia' selected >Azja</option>
+        <option value='Antarctica'>Antarkdyda</option>
+        <option value='Africa'>Afryka</option>
+        <option value='AmericaN'>Ameryka N</option>
+        <option value='AmericaS'>Ameryka S</option>
+
+
+    </select>
+
+    <div id="show_info">___</div>
+
+    <script>
+
+        const select1 = document.querySelector("#kontynenty");
+        const info = document.querySelector("#show_info");
+
+
+        select1.addEventListener('change', function() {  //change
+            // alert(select1.value)
+            // info.innerHTML = select1.value;
+            file_name=select1.value;
+            // console.log(file_name);
+
+            info.innerHTML='<img src="'+file_name+'.jpg"alt="'+file_name+'"/>';
+            
+            
+            
+        });
+
+
+
+    </script>
+    
+</body>
+</html>

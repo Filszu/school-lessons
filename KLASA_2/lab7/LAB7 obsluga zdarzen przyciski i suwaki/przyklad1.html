@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="myBtn">TESTUJ</button>
+<p id="demo"></p>
+
+<script>
+
+/* OPIS
+            Metoda .addEventListener() pozwala przypisać obsługę zdarzenia do elementu.
+            Nie każde zdarzenie można przypisać do każdego elementu. "click" jest
+            najbardziej uniwersalny. Kod, który się wykona, gdy klikniemy przypisany jest
+            do funkcji anonimowej, można jednak używać także konkretnych funkcji.
+        */
+        
+        //definicja stałych reprezentujących elementy strony
+        const paragraf=document.querySelector('#demo');
+        const przycisk=document.querySelector('#myBtn');
+
+        //reakcja na zdarzenie - kliknięcie na przycisk
+        //wypisanie treści do paragraf
+        //innerHTML powoduje zastąpienie dotychczasowej treści   
+		przycisk.addEventListener("click", function(){
+			//kod, który się wykona, gdy klikniemy
+            paragraf.innerHTML='Hello World';
+		});
+</script>
+
+</body>
+</html>

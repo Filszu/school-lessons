@@ -1,0 +1,4 @@
+Napisz kod, który po naciśnięciu przycisku z podpisem 'Powitanie' wyświetli tekst - nagłówek 1 stopnia - 'Czesc, miłego dnia!' a sam przycisk zniknie.
+
+POMOC:
+Patrz na przyklady metoda addEventListener().

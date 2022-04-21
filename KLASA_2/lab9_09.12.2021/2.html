@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+</head>
+<body>
+    <input type="checkbox" name="terms" id="terms">
+    <label for="terms">Zapoznałem się z regulaminem</label>
+    <div class="info_box"></div>
+
+    <script>
+        const txt='<h2>Pamiętaj! Koniecznie przeczytaj nasz regulamin.</h2>';
+        const c_box = document.querySelector('#terms');
+        const info = document.querySelector('.info_box');
+
+        c_box.addEventListener('change', function(){c_box.checked?info.innerHTML=txt:info.innerHTML="";})
+    </script>
+</body>
+</html>

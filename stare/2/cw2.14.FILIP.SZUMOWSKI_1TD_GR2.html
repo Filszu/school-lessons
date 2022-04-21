@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz rejestracji</title>
+</head>
+
+<body>
+    <form action="mailto:fsz05@onet.pl" method="POST">
+        <h1>Zarejestruj się</h1>
+        Imię: <input type="text" name="name" placeholder="Jan" required/><br>
+        Nazwisko: <input type="text" name="subname" placeholder="Nowak" required/><br>
+
+
+        <br>
+
+        Płeć:<br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Kobieta</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Mężczyzna</label><br>
+
+        <br>
+        wiek:
+        <input type="number" name="age" min="10" placeholder="od 10 lat" required/>
+
+        <br>
+        <br>
+        Podaj adres e-mail:
+        <input type="email" name="email" placeholder="JanNowak@poczta.pl" required/><br>
+
+        <br>
+
+        Wybierz języki:<br>
+        <select name="langauge" multiple>
+            <option>Język angielski</option>
+            <option>Język niemiecki</option>
+            <option>Język francuski </option>
+            <option>Język włoski</option>
+            <option>Język rosyjski</option>
+            <option>Język hiszpański</option>
+        </select><br><br>
+
+        Twoje zainteresowania:<br>
+        <input type="checkbox" id="motoryzacja" name="motoryzacja">
+        <label>Motoryzacja</label><br>
+
+
+        <input type="checkbox" id="sport" name=sport>
+        <label>Sport</label><br>
+
+
+        <input type="checkbox" id="muzyka" name="muzyka">
+        <label>Muzyka</label><br>
+
+        <input type="checkbox" id="taniec" name="taniec">
+        <label>Taniec</label><br>
+
+        <input type="checkbox" id="gry" name="gry">
+        <label>Gry</label><br>
+
+        <input type="checkbox" id="inne" name="inne">
+        <label>Inne (podaj jakie): </label><input type="text" placeholder="modelarstwo" /><br>
+
+        <br>
+        Masz jakieś uwagi?:<br>
+        <textarea rows="5" cols="50" placeholder="Wpisz je tutaj :D [pozostało 250 znaków]" maxlength="250"></textarea>
+
+        <br><br>
+        <input type="checkbox" checked disabled/>Akceptuje regulamin<br/>
+        <input type="checkbox" id="dos" />
+        <label for="dos">Zgadzam się na przetwarzanie danych osobowych</label>
+
+        <br>
+        <br>
+
+        <input value="Wyślij" type="submit">
+        <input value="Wyczyść" type="reset" />
+    </form>
+
+    <footer>Autor Filip Szumowski</footer>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+Zapoznaj się (przetestuj w konsoli) z przykładem przedstawiającym działanie pętli do while i do. Choć są podobne różni je kluczowy szczegół.
+Jaki? Udziel odpowiedzi poniżej:
+odp.> ...
+
+
+PRZYKŁAD:
+
+let liczba=10;
+
+console.log('===== pętla DO WHILE =====');
+do {
+  console.log(liczba);
+  liczba++;
+} while (liczba<=0);
+
+console.log('===== pętla DO =====');
+liczba=10;
+while(liczba<=0) {
+   console.log(liczba);
+   liczba++;
+} 

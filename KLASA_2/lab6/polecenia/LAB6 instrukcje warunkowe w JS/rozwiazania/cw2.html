@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script - ćwiczenia</title>
+</head>
+<body>
+    <div id="opis"></div>
+    <script>
+        /* OPIS
+            Instrukcja warunkowa if else może przyjmować 3 podstawowe
+            zapisy.
+        */
+        
+        //samodzielnie zdefiniuj wartość zmiennej liczba
+        let liczba=-3;
+
+        // = = = = = = = = = = = = = = = = = = 
+        // 1 możliwy zapis
+        /* 
+        if(liczba>0){
+            opis.innerHTML ='dodatnia';
+        }
+        else {
+            opis.innerHTML ='0/ujemna';
+        }
+        */
+
+        // = = = = = = = = = = = = = = = = = = 
+        // 2 możliwy zapis
+        /* 
+        if(liczba>0) opis.innerHTML ='dodatnia'; else opis.innerHTML ='0/ujemna';
+        */
+
+        // = = = = = = = = = = = = = = = = = =         
+        // 3 możliwy zapis
+        (liczba>0) ? opis.innerHTML ='dodatnia' : opis.innerHTML ='0/ujemna';
+    </script>
+</body>
+</html>
+       

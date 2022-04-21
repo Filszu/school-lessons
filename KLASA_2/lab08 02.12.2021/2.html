@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+</head>
+<body>
+
+    <input type="number" name="input1" id="input1">
+    <button id="btn1">BUTTON</button>
+    <h1><div id="wynik"></div></h1>
+    
+    <script>
+
+
+
+        const btn = document.querySelector('#btn1');
+        const input1 = document.querySelector("#input1");
+        const result = document.querySelector('#wynik');
+        
+        btn.addEventListener("click", function(){
+            
+            // alert(input1.value);
+            
+            let i_value = input1.value;
+            console.log('type: ')
+            console.log(typeof(i_value));
+            // i_value++;  automatycznie zmienia na number
+            i_value = Math.pow(Number(i_value),3);
+            result.innerHTML=i_value;
+
+            console.log('type2: ')
+            console.log(typeof(i_value));
+         
+
+        });
+
+
+    </script>
+
+</body>
+</html>

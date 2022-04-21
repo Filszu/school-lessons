@@ -1,0 +1,6 @@
+Zadeklaruj 4 zmienne i przypisz im ponizsze wartosci:
+100;
+'100';
+"znak";
+3.14;
+Nastepnie sprawdz w konsoli typ zadeklarowanych zmiennych.

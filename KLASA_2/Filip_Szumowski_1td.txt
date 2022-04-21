@@ -1,0 +1,15 @@
+Czy kod JS jest calkowicie jawny dla uzytkownika?
+> TAK
+
+Jaka jest podstawowa roznica miedzy php a js?
+> PHP wykonuje siê po stronie serwera a JS lokalnie. 
+
+Dlaczego programu zegara odliczajacego czas nie nalezy pisac w PHP?
+
+> Odp. By³oby to duzym obci¹zeniem dla serwera, wiêc lepiej zrobic to za pomoc¹ JS na urz¹dzeniu u¿ytkownika 
+
+mo¿na jednak zrobic jedno zapytanie pobieraj¹ce datê z serwera( a nie lokaln¹) [jak zale¿y na poprawnej dacie] i zwiêkszaæ/zmniejszaæ czas póŸniej za pomoc¹ JS
+
+Podaj inny przyklad zastosowania JS (niz zegar) na sronie www.
+> 
+popup, interaktywne elemnty, animacje JS, gra, galeria zdjêæ,itd....

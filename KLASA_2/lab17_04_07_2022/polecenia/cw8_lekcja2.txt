@@ -1,0 +1,5 @@
+Zmodyfikuj zadanie z cw6, dodając metodę, która oceni na podstawie ceny samochodu status jego właściciela w 3 stopniowej skali:
+klasa ekonomiczna <59000 zł 
+klasa standardowa 60000 - 99999 zł
+klasa premium >100000
+Informację o klasie wyświetl w konsoli

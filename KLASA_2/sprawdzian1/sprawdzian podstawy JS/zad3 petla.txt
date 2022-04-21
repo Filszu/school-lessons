@@ -1,0 +1,5 @@
+Napisz petle, ktora wypelni ekran w 100% zdaniem "sprawdzian z podstaw JS".
+Petle wykonaj trzykrotnie:
+> dwukrotnie wg dolaczonego schematu while-do.jpg.
+> raz z uzyciem for
+Jedna z petli pozostaw w gotowosci do dzialania, reszte zakomentuj.

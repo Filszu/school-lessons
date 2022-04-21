@@ -1,0 +1,7 @@
+Skorzystaj z operatora += by uprościć kod z cw1. Napisz kod JS który w div-ie z id=wynik wyświetli liczby od 1 do 100 rozdzielone przecinkami. 
+
+Jesli w cw1 zastosowałeś już operator +=, to przekonwertuj kod w cw2 na zapis alternatywny.
+
+POMOC:
+Operator += pozwala uprościć zapis, zapis:
+kodHTML+=i+', ';    jest równoznaczny zapisowi    kodHTML=kodHTML+i+', '

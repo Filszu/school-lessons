@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8</title>
+</head>
+<div class="container"></div>
+<body>
+    <script>
+        const box = document.querySelector(".container");
+
+        function Samochod(marka,model,silnik, spalanie, cena_paliwa, cena){
+            this.marka = marka;
+            this.model=model;
+            this.silnik=silnik;
+            this.spalanie = spalanie;
+            this.cena_paliwa = cena_paliwa;
+            this.cena= cena;
+            this.koszt = function(){
+                return spalanie*cena_paliwa;
+            }
+            this.status = function(){
+                if(cena<59000)console.log(`klasa ekonomiczna`);
+                else if(cena<99999)console.log(`klasa standardowa`);
+                else console.log(`klasa premium`);
+                
+            }
+            this.status();
+        } 
+
+
+        let cars = [];
+        const bmw1 =new Samochod("bwm", "xde3", "spalinowy",10,8,58000);
+        // console.log(bmw1)
+        // console.log(bmw1.koszt());
+        const citroen1 =new Samochod("citroen", "bERLINGO", "spalinowy",7.5,6.8,65000);
+        // console.log(citroen1.koszt())
+        const audi1 =new Samochod("audi", "misiso", "spalinowy",7.5,6.8,58000);
+        const toyota1 =new Samochod("toyota", "carolla", "spalinowy",8.5,89000);
+        const mecedes =new Samochod("mercedes", "sedes", "spalinowy",6.5,132000);
+        cars.push(bmw1,citroen1,audi1,toyota1,mecedes);
+
+
+
+
+
+        // //-zmiana ceny paliwa
+        // const cenaPaliwa = Number(prompt("Podaj nowa cene paliwa"));
+        // // cars[0].cena_paliwa=5.5;
+        // for(i of cars){
+        //     i.cena_paliwa=cenaPaliwa;
+        // }
+        // console.log(cars)
+        
+
+    </script>
+    
+</body>
+</html>

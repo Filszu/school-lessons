@@ -1,0 +1,1 @@
+Zawartość obiektu z cw4 wypisz do div-a. Wyróznij: imię i nazwisko pogrubieniem.

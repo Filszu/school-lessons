@@ -1,0 +1,4 @@
+Pobierz godzine z systemu np. do zmiennej czas. W zaleznosci od pobranej godziny wyswietl uzytkownikowi w kontenerze o id="powitanie" odpowiedni komunikat uzalezniony od pory dnia wg schematu:
+6.00 - 16.00 "dzień dobry"
+17.00 - 22.00 "dobry wieczór"
+23.00 - 5.00 "dobranoc"

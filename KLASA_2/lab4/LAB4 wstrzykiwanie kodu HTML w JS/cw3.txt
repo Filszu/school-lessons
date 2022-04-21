@@ -1,0 +1,7 @@
+Użyj konstrukcji ${zmienna} i odwróconych apostrofów ` (na klawiszu ~) są to tzw. template strings. Zdefiniuj dwie zmienne 
+a o wartości 75 i b o wartości 125. Do div-a z id="wynik" wstrzyknij działanie dodawania zmiennych jako nagłówek 1 stopnia.
+
+POMOC:
+Template strings. Użycie konstrukcji ${zmienna} 
+i odwróconych apostrofów ` - znajdują się na klawiszu ~
+pozwala na uproszczenie zapisu i rezygnację z operatora konkatenacji

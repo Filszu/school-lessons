@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+</head>
+<body>
+    
+    <div class="container"></div>
+    <script>
+        const con = document.querySelector(".container");
+//     // con.innerHTML = koledzy.join(", ");
+//     const persons = [
+//     {firstname : "Filip", lastname: "Szumowski"},
+//     {firstname : "Irwyd", lastname: "Wydrzyński"},
+//     {firstname : "Konrad", lastname: "Konopka"},
+//     {firstname : "Alex", lastname: "Pierdyka"},
+//     {firstname : "KAcper", lastname: "Ocimek"}
+    
+// ];
+
+// // con.innerHTML=persons;
+// con.innerHTML=persons.map(getName)
+
+// function getName(item){
+//     return [item.firstname].join(" ");
+// }
+
+const koledzy = ["Filip Szumowski", "Irwyd Wydrzyński", "KAcper Ocimek", "Konrad Konopka", "Alex Pierdyka"];
+
+let names = koledzy.map(person=>{ return person.substr(0, person.indexOf(" ")); })
+
+con.innerHTML=names;
+
+    </script>
+</body>
+</html>

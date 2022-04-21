@@ -1,0 +1,18 @@
+Do obiektu z cw1 dodaj metodę wiekUcznia(), która zwraca jego wiek na podstawie podanego rocznika. Obiekt wyświetl w konsoli.
+
+POMOC:
+Metody korzystać mogą z funkcji i zmiennych tak zdefiniowanych lokalnie 
+dla obiektu jak i tych widocznych w całym zakresie. 
+Metody możemy definiować w obrębie obiektu np.
+const oferta = {
+            marka  : "Kia",
+            model : "Carens",
+	    cena : 65000,
+	    rocznik : 2022,
+	    wiekSamochodu : function() {
+                let data=new Date()
+                let wiek=Number(data.getFullYear())-this.rocznik;
+                return wiek;
+            }}
+
+

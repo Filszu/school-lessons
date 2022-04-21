@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+</head>
+<body>
+    <div class="container"></div>
+    <script>
+        const box  = document.querySelector(".container");
+
+        let r=Number(prompt("r="));
+        const pi = Math.PI;
+        let P=pi*Math.pow(r,2); //pir^2
+        let O=2*pi*r; //2pir
+        box.innerHTML=`pole koła o promieniu r=${r} : P=${P},\n i jego obwód: O= ${O}`;
+        
+    </script>
+    
+</body>
+</html>

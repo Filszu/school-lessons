@@ -1,0 +1,8 @@
+Zbadaj wartość logiczną wyrażeń: "",0,null,undefined,"abc"," ",7,-45
+
+POMOC:
+Do wyświetlania wykorzystaj instrukcję document.write().
+Teksty, liczby, wyrażenia zwracają wartość logiczną
+true lub false jeśli są "sprawdzane jako wyrażenia logiczne".
+Warto wiedzieć jakie wartości są zwracane.
+!! czyli podwójne zaprzeczenie zwraca wartość logiczną danego wyrażenia.

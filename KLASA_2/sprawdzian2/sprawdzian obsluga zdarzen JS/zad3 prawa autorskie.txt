@@ -1,0 +1,3 @@
+Spowoduj aby po kliknięciu na stronie projektu Biuro podrozy GLOB tekstu Copyright 
+wyswietlila sie w oknie alert krotka informacja o braku mozliwosci kopiowania i dalszego 
+wykorzystywania materialow umieszczonych na stronie.

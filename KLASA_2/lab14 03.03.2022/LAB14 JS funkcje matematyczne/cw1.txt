@@ -1,0 +1,5 @@
+Do zmiennej przypisz losową liczbę z kilkoma miejscami po przecinku.
+Wyświetl część całkowitą tej zmiennej.
+
+POMOC:
+Poszukaj odpowiedniej metody obiektu Math

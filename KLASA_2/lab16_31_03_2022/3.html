@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+</head>
+<body>
+    <div class="box"></div>
+    <script>
+
+        const date = new Date;
+        const cYear = date.getFullYear()
+        
+        const uczen = {
+            name: "Filip",
+            surname: "Szumowski",
+            year: 2005,
+            wiekUcznia :function(){
+                const age =cYear-this.year;
+                if(age>=0 && age<=110){
+                    switch(age){
+                    case 0:
+                        return "0 lat"
+                        break;
+                    case 1:
+                        return "1 rok"
+                        break;
+                    default:
+                        return ` ${age} lat/a`;
+                }
+                }
+                else return "nieprawidłowe dane";
+                
+                // console.log(this.year)
+            }
+        }
+    const box = document.querySelector(".box");
+    for (let i in uczen){
+        box.innerHTML+=`${i} : ${uczen[i]}<br>`;
+    }
+
+  
+        
+    uczen.year=prompt("Podaj rocznik");
+    console.log(uczen.wiekUcznia());
+
+    </script>
+</body>
+</html>

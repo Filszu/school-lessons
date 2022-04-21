@@ -1,0 +1,4 @@
+Tekst z cw1 wypisz do div-a i umieść w znaczniku <h3>. Słowo Twórcą zamień na Autorem. Do kolejnego div'a ponownie wypisz tekst. 
+
+POMOC:
+Metoda replace() zamienia podany tekst (1 argument), na podany tekst (2 argument).

@@ -1,0 +1,16 @@
+Napisz kod JS który w div-ie z id=wynik wyświetli liczby od 1 do 100 rozdzielone przecinkami. Wynik dzialania petli przechowaj w zmiennej kodHTML, a nastepnie wstrzyknij go do div-a wynik
+
+POMOC:
+Pętla for ulepi kod HTML, zwiększając go w każdym 
+obrocie o kolejną liczbę od 1 do 100 i przecinek (,).
+
+for (zainicjowanie_zmiennych;  warunek_kończący_wykonywanie_pętli;  zmiana_zmiennych) {
+    kod który zostanie wykonany pewną ilość razy
+}
+np.
+//pętla od 0 do 99
+for (let i=0; i<100; i++) {
+    console.log("Nie będę rozmawiał na lekcji Informatyki.");
+}
+
+Kod HTML czyli zmienna kodHTML zostanie wstrzykniety do div-a wynik.

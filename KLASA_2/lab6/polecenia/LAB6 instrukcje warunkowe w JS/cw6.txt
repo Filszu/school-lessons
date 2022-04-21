@@ -1,0 +1,8 @@
+Napisz skrypt, który dla 0, wypisze w konsoli tekst "Zero", dla innych liczb tekst "Liczba różna od zera".
+
+POMOC:
+Wykorzystaj to, że wartość logiczna liczby 0 wynosi false.
+Jesli uzywasz instrukcji prompt() do pobrania liczby od uzytkownika, 
+to musisz dokonac konwersji, bo inaczej to co wpisze uzytkownik będzie traktowane 
+jako łańcuch znaków, a nie jako liczba!!!
+Konwersji możesz dokonać np. z pomocą instrukcji Number()

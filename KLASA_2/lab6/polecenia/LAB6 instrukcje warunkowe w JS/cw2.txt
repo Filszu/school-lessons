@@ -1,0 +1,16 @@
+Pobierz od użytkownika liczbę. Jeśli będzie dodatnia w div-ie z id="opis" ma się wyświetlić np. tekst "dodatnia". Jeśli nie ma się pokazać np. tekst: "0/ujemna". Wykorzystaj instrukcję warunkową if ze składnią wykorzystującą symbole ? :.
+
+POMOC:
+Instrukcja warunkowa if else może przyjmować 3 podstawowe
+zapisy.
+// 1 możliwy zapis:
+        if(warunek){
+            instrukcja dla TRUE;
+        }
+        else {
+            instrukcja dla FALSE;
+        }
+// 2 możliwy zapis:
+        if(warunek) instrukcja dla TRUE; else instrukcja dla FALSE;       
+// 3 możliwy zapis:
+        (warunek) ? instrukcja dla TRUE : instrukcja dla FALSE;

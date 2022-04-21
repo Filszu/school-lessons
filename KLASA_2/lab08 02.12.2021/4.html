@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+</head>
+<body>
+    <select name="kontynenty" id="kontynenty">
+        <option value="Europa: 4811 m n.p.m., Mont Blanc;">Europa</option>
+        <option value="Azja: 8848 m n.p.m., Mount Everest">Azja</option>
+        <option value="Antakdyda: 6194 m n.p.m., Denali (McKinley)">Antakdyda</option>
+        <option value="Afryka: 5895 m n.p.m., Kilimandżaro">Afryka</option>
+        <option value="Ameryka N: 6194 m n.p.m., Denali (McKinley)">Ameryka N</option>
+        <option value="Ameryka S:  6962 m n.p.m., Aconcagua">Ameryka S</option>
+
+
+    </select>
+
+    <div id="show_info">___</div>
+
+    <script>
+
+        const select1 = document.querySelector("#kontynenty");
+        const info = document.querySelector("#show_info");
+
+
+        select1.addEventListener('change', function() {  //change
+            // alert(select1.value)
+            info.innerHTML = select1.value;
+            
+            
+        });
+
+
+
+    </script>
+    
+</body>
+</html>

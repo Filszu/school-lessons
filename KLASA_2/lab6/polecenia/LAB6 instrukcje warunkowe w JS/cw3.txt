@@ -1,0 +1,4 @@
+Pobierz od użytkownika liczbę. Jeśli będzie dodatnia w div-ie z id="opis" ma się wyświetlić tekst "Liczba większa od zera." napisany jako nagłówek 1 stopnia. Dla liczb ujemnych ma się pokazać tekst: "Liczba ujemna.". Dla zera ma się wyświetlać tekst " Zero.". 
+
+POMOC:
+Skorzystaj z instrukcji if - else if.

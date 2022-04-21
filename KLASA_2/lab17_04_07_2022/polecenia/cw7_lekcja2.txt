@@ -1,0 +1,10 @@
+Utworz konstruktor dla obiektu samochod z wartosciami:
+marka
+model
+silnik
+spalanie
+cena_paliwa
+i metodą koszt 100km, tak by zwracała koszt, przy założenej cenie paliwa i spalaniu danego samochodu.
+
+Sprawdź działanie metody dla 5 przykładowych marek samochodów. Dane o spalaniu i aktualnej cenie paliwa zaczerpnij z sieci Internet.
+

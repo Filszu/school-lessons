@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+</head>
+<body>
+    <div class="box"></div>
+    <script>
+
+        const date = new Date;
+        const cYear = date.getFullYear()
+        
+        const uczen = {
+            name: "Filip",
+            surname: "Szumowski",
+            year: 2005,
+            wiekUcznia :function(){
+                const age =cYear-this.year;
+                if(age>=0 && age<=110){
+                    
+                    // alert(age)
+                    // alert(age.toString().charAt(1))
+                    // alert(age.toString().charAt(age.lenght-1));
+                    const lastDigit=age.toString().charAt(age.lenght-1);
+                    // alert(lastDigit)
+                    if(age==1){
+                        return "1rok"
+                    }                  
+                    else if(age>1&&age<=4)return `${age}lata`;
+                    else if(age>=5&&age<=12)return `${age}lat`;
+                    else{
+                        //lat 20,21, 25,26,27,28,29,30 lat
+                        //22 23, 24,  lata
+                        if(lastDigit=='2'||lastDigit=='3'||lastDigit=='4'){
+                            return `${age}lata`;
+
+                        }
+                        else{
+                            return `${age}lat`;
+                        }
+                    }
+                 
+                    
+                }
+                
+                else return "nieprawidłowe dane";
+                
+                // console.log(this.year)
+            }
+        }
+    const box = document.querySelector(".box");
+    for (let i in uczen){
+        box.innerHTML+=`${i} : ${uczen[i]}<br>`;
+    }
+
+  
+        
+    uczen.year=prompt("Podaj rocznik");
+    console.log(uczen.wiekUcznia());
+
+    </script>
+</body>
+</html>

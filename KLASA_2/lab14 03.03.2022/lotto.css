@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: dodgerblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 110px 1fr 50px;
+    color: white;
+    font-family: 'Lucida Sans';
+    font-size: 25px;
+}
+header{
+    grid-column: 1 /2;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 3rem;
+    color: yellow;
+    font-family: 'Shippori Antique B1', sans-serif;
+
+    
+
+}
+header span{
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+span:hover{
+    transform: scale(1.2);
+}
+
+.panel
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ball{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background: radial-gradient(circle at 65% 15%, white 2px, rgb(233, 233, 16) 3%, rgb(255, 217, 0) 60%, rgb(255, 123, 0) 100%); 
+    animation: slidein 2s 0.2s;
+    
+}
+
+
+.ball:nth-child(1){
+    animation: slidein 2s 1s;
+
+}
+.ball:nth-child(2){
+    animation: slidein 2s 2s;
+
+}
+.ball:nth-child(3){
+    animation: slidein 2s 3s;
+
+}
+.ball:nth-child(4){
+    animation: slidein 2s 4s;
+
+}
+.ball:nth-child(5){
+    animation: slidein 2s 5s;
+
+}
+.ball:nth-child(6){
+    animation: slidein 2s 6s;
+
+}
+
+
+
+@keyframes slidein {
+    from {
+      transform: translateY(0%);
+    }
+  
+    50% {
+      transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+      }
+      
+
+  }

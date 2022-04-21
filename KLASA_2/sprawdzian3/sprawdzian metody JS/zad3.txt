@@ -1,0 +1,1 @@
+Napisz program do zaokrąglania liczb zmienno przecinkowych do wartości całkowitych. Wartość do obliczeń pobieramy od użytkownika. Wynik wyświetlamy na stronie.
