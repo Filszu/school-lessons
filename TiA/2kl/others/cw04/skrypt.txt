@@ -1,0 +1,11 @@
+SELECT * FROM uczen ORDER BY nazwisko ASC;
+
+SELECT * FROM uczen WHERE nazwisko LIKE "N%" AND imie LIKE "%A";
+
+SELECT COUNT(*) AS "liczba uczniów" from uczen;
+
+SELECT AVG(ocena) FROM oceny;
+
+SELECT imie, nazwisko FROM oceny, uczen WHERE id_przedmiotu=3 ORDER BY MIN(ocena);
+
+SELECT CONCAT(imie, " ",nazwisko) AS "Imie i nazwisko", nazwa_przedmiotu AS "Przedmiot", ocena FROM uczen, oceny, przedmiot WHERE oceny.id_ucznia = uczen.id_ucznia LIMIT 1;

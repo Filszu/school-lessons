@@ -1,0 +1,4 @@
+INSERT INTO `wynik` (`id`, `bmi_id`, `data_pomiaru`, `wynik`) VALUES (NULL, '1', '2020-05-20', '15'); 
+SELECT id, informacja, wart_min FROM `bmi` WHERE 1; 
+SELECT w.wynik, b.informacja FROM `wynik` w,bmi b WHERE b.id = w.bmi_id; 
+SELECT wart_min, wart_max FROM `bmi` WHERE informacja="niedowaga"; 

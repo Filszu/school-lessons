@@ -1,0 +1,11 @@
+﻿--baza
+
+
+--1
+SELECT id, imie, nazwisko, rok_urodzenia, zdjecie FROM osoby LIMIT 30;
+--2
+SELECT o.imie, o.nazwisko, o.rok_urodzenia, o.opis, o.zdjecie, h.nazwa FROM osoby as o Join hobby as h ON o.Hobby_id = h.id AND o.id=10; 
+--3
+SELECT avg(rok_urodzenia), max(rok_urodzenia), min(rok_urodzenia) FROM `osoby`;
+--4
+update osoby set opis="Lubię tańczyć w parku" where Hobby_id=5; 

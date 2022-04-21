@@ -1,0 +1,8 @@
+html{
+    --dark: rgb(12, 12, 14);
+}
+
+body{
+    background-color: var(--dark);
+    color: white;
+}

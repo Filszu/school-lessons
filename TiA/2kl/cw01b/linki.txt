@@ -1,0 +1,2 @@
+https://matipl.pl/2013/04/25/zapisywanie-ceny-kwot-w-mysql/
+https://stackoverflow.com/questions/37994141/what-is-the-best-data-type-for-isbn10-and-isbn13-in-a-mysql-datase

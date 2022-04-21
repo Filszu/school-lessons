@@ -1,0 +1,23 @@
+create databese biblioteka
+
+CREATE TABLE ksiazki
+(id INT AUTO_INCREMENT PRIMARY KEY,
+ tytul TEXT(60),
+ autor INT,
+ kategoria INT
+    )
+CREATE TABLE autorzy
+(aid INT AUTO_INCREMENT PRIMARY KEY,
+ imie TEXT(20),
+ nazwisko TEXT(30)
+    )
+CREATE TABLE kategorie
+(kid INT AUTO_INCREMENT PRIMARY KEY,
+ nazwa TEXT(20)
+    )
+
+INSERT INTO `autorzy` (`aid`, `imie`, `nazwisko`) VALUES (NULL, '', '')
+SELECT * FROM `ksiazki` ORDER BY `ksiazki`.`kategoria` ASC
+
+UPDATE autorzy SET imie="Andrzej", nazwisko="Nowak" WHERE aid="1"
+SELECT * FROM `autorzy` WHERE aid="1"
