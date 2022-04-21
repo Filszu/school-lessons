@@ -1,0 +1,15 @@
+-- CREATE DATABASE cw10;
+
+SELECT imie, nazwisko, opis, zdjecie FROM osoby where Hobby_id in (1,2,6);
+
+SELECT o.id, o.nazwisko, h.nazwa FROM osoby o, hobby h where rok_urodzenia>2000 AND h.id=o.Hobby_id;
+
+SELECT id, zdjecie FROM osoby where imie = "Monika" LIMIT 5;
+
+CREATE table wpisy(
+    id INT UNSIGNED AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    wpis TEXT,
+    uzytkownik_id INT UNSIGNED NOT NULL
+);
+
+

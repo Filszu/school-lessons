@@ -1,0 +1,11 @@
+SELECT nazwa, ilosc, opis, cena, zdjecie FROM produkty WHERE Rodzaje_id in(1,2)
+
+SELECT p.nazwa, pr.nazwa FROM produkty p JOIN producenci pr ON p.Producenci_id = pr.id WHERE p.ilosc < 10 AND Rodzaje_id = 1
+
+
+INSERT INTO produkty(`Rodzaje_id`, `Producenci_id`, `nazwa`,
+`ilosc`, `opis`, `cena`, `zdjecie`) VALUES (1, 4, "owoc1",
+10,"",9.99,"owoce.jpg")
+
+
+INSERT INTO produkty(Rodzaje_id, Producenci_id, nazwa, ilosc,opis, cena, zdjecie) VALUES (1, 4, "owoc1", 10,"",9.99,"owoce.jpg")
