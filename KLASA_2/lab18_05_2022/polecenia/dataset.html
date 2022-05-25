@@ -1,0 +1,28 @@
+<html>
+<div id="user" data-id="1234567890" data-user="johndoe" data-date-of-birth>John Doe</div>
+
+<script>
+const el = document.querySelector('#user');
+
+console.log(el.dataset);
+
+// el.id === 'user'
+// el.dataset.id === '1234567890'
+// el.dataset.user === 'johndoe'
+// el.dataset.dateOfBirth === ''
+
+// set a data attribute
+el.dataset.dateOfBirth = '1960-10-03';
+// Result on JS: el.dataset.dateOfBirth === '1960-10-03'
+// Result on HTML: <div id="user" data-id="1234567890" data-user="johndoe" data-date-of-birth="1960-10-03">John Doe</div>
+
+console.log(el.dataset);
+
+delete el.dataset.dateOfBirth;
+// Result on JS: el.dataset.dateOfBirth === undefined
+// Result on HTML: <div id="user" data-id="1234567890" data-user="johndoe">John Doe</div>
+
+console.log(el.dataset);
+
+</script>
+</html>

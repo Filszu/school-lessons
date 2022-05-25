@@ -1,0 +1,17 @@
+Zdefiniuj obiekt wg. poniższego opisu:
+
+const OTOMOTO = {
+            marka  : "JEEP",
+            model : "Compas",
+	    cena : 65000,
+	    rocznik": 2020,
+	    wiekSamochodu : function() {
+                let data=new Date()
+                let wiek=Number(data.getFullYear())-this.rocznik;
+                return wiek;
+            }}
+
+Wykorzystaj destrukturyzację i przypisz wartość kluczy obiektu do zmiennych o nazwach marka, model, cena, rocznik. Zmienne wypisz w konsoli. Dodatkowo w konsoli wyświetl wynik działania metody wiekSamochodu.
+
+POMOC:
+patrz destrukturyzacja

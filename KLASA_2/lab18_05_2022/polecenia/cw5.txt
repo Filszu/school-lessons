@@ -1,0 +1,15 @@
+Obiekty klasy Samochod, uczyń częściami składowymi obiektu Auta. Wypisz obiekt Auta do konsoli.
+
+POMOC:
+Tworzymy nowy obiekt. Obiekt Auta składa się z
+obiektów klasy Samochod np. samochod1, samochod2, samochod3, itd.
+
+Nazwy samochod1 itd. są w obiekcie Auta jego kluczami a zawartość
+tych obiektów - wartościami kluczy.
+
+SKLADNIA:
+ const Auta = {
+            	samochod1: new Samochod(),
+		samochod2: new Samochod(),
+		samochod3: new Samochod()
+        } 

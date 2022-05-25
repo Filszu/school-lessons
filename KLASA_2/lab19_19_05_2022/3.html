@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3</title>
+</head>
+<body>
+    <div id="opis"></div>
+    <script>
+        /* OPIS
+            Nazwy kluczy obiektu, mogą być tworzone dynamicznie, w poniższym przykładzie
+            klucze przyjmują postać: opis1, opis2, opis3.
+        */
+
+      
+        let opisy = ["Beskidy wiosną","Bieszczady jesienią","Tatry zimą","Gorce latem",];
+        
+        let nazwaklucza='opis';
+        const Podpisy = {
+            [nazwaklucza+"0"]:opisy[0],
+            [nazwaklucza+"1"]:opisy[1],
+            [nazwaklucza+"2"]:opisy[2],
+            [nazwaklucza+"3"]:opisy[3]
+        }
+
+        // wypisanie wartości
+        console.log(Podpisy.opis0);
+        console.log(Podpisy.opis1);
+        console.log(Podpisy.opis2);
+        console.log(Podpisy.opis3);
+
+    </script>
+</body>
+</html>
+       

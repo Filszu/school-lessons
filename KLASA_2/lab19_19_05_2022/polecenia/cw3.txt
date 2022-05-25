@@ -1,0 +1,1 @@
+Zapoznaj się z przykładem dynamicznego tworzenia nazw kluczy, a nastepnie uzupelnij podany opis o nowe pasmo górskie z brakującą porą roku i zastąp nim 'pusty' w obiekcie 'opisy'

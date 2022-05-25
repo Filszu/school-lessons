@@ -1,0 +1,12 @@
+Przygotuj na stronie www formularz służący do wprowadzania poniższych danych do programu:
+marka 
+model
+silnik
+spalanie
+z przyciskiem DODAJ
+Dołącz do formularza formatowanie css w postaci zewnętrznego pliku
+
+POMOC:
+Elementy formularza umieść w div'ie z identyfikatorem i opisz odpowiednimi etykietami.
+
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <!-- marka 
+            model
+            silnik
+            spalanie
+        -->
+        <label for="marka">Marka</label>
+        <input type="text" name="marka" id="marka">
+
+        <label for="model">model</label>
+        <input type="text" name="model" id="model">
+        
+        <label for="silnik">silnik</label>
+        <input type="text" name="silnik" id="silnik">
+        
+        <label for="spalanie">spalanie</label>
+        <input type="text" name="spalanie" id="spalanie">
+        
+        <!-- <input type="button" id="submit" value="dodaj"> -->
+        <input type="submit" id="submit" value="dodaj">
+        <input type="reset" value="reset">
+    </form>
+    </div>
+    <!-- <div class="debugBox"></div> -->
+
+    <script>
+
+        class Car{
+            constructor(marka, model, silnik, spalanie){
+                this.marka = marka;
+                this.model = model;
+                this.silnik = silnik;
+                this.spalanie = spalanie;
+            }
+            wypiszOferte(){
+                console.log(this.marka, this.model, this.silnik, this.spalanie);
+            }
+        } 
+
+        let cars = [];
+        cars.push(new Car("audi","BX34","spalinowy",8))
+        console.log(cars[0])
+        cars.push(new Car("Toyota","carrola","spalinowy",7));
+        cars.push(new Car("tesla","BX34","elektryczny",0))
+
+        const Auta = {
+            samochod1: new Car("Toyota","carrola","spalinowy",7),
+            samochod2: new Car("audi","BX34","spalinowy",8),
+            samochod3: new Car("tesla","BX34","elektryczny",0),
+
+            // wypiszOferte(idOferty){
+            //     console.log(idOferty.marka, idOferty.model, idOferty.silnik, idOferty.spalanie);
+            //     console.log("id_ofery: "+idOferty)
+            // }
+        } 
+
+        console.log(Auta)
+
+
+        // document.querySelector(".debugBox").innerHTML = `debugBox<br>${cars[0].marka},${cars[0].model},${cars[0].silnik},${cars[0].spalanie}`;
+
+
+        document.querySelector("#submit").addEventListener("click",czyscFormularz);
+
+        function czyscFormularz(){
+            document.querySelector("form").reset();
+            
+            
+        }
+
+        // Auta.samochod1.wypiszOferte();
+        for(idOferty of Object.keys(Auta))
+        {
+            // console.log("\n")
+            console.log(idOferty)
+            // Auta.idOferty.wypiszOferte();
+        }
+    //    Auta.forEach(element => {
+    //     element.wypiszOferte();
+    //    });
+
+    // Auta.wypiszOferte(Auta.samochod1);
+    // for(idOferty of Object.keys(Auta))
+    // {
+    //     console.log(idOferty)
+    //     Auta.wypiszOferte(idOferty);
+    //     // idOferty.wypiszOferte();
+    // }
+
+    for (const a of cars) {
+
+        a.wypiszOferte();
+        
+    }
+        
+
+    </script>
+
+    
+</body>
+</html>

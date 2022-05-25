@@ -1,0 +1,3 @@
+W każdej wyswietlonej na stronie ofercie, utwórz aktywny element - słowo - Edycja. Kliknięcie na nie ma powodować przepisanie zawartości oferty do formularza. 
+
+Do formularza dodaj przycisk Odśwież. Po zmianie informacji i naciśnięciu przycisku Odśwież, dane mają ulec zmianie - nastąpić ma odświeżenie treści.

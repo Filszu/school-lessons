@@ -1,0 +1,1 @@
+Dane o pojazdach wyswietlane w konsoli wyswietl na stronie obok formularza.

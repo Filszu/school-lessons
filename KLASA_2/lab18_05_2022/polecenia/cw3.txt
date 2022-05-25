@@ -1,0 +1,3 @@
+Dla cw2 zdefiniuj nowy konstruktor dla obiektu samochod z wartosciami odpowiadajacymi poszczególnym polom formularza:
+marka, model, silnik, spalanie.
+Obiekt uzupełnij przykładowymi wartościami i wyświetl w konsoli.

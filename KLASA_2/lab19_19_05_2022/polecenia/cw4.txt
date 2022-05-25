@@ -1,0 +1,24 @@
+Zdefiniuj obiekt wg. wzoru:
+
+const danieDnia = {
+            nazwa: "Schabowy",
+            opis: "Kotlet ze schabu panierowany w bułce i jajku",
+            cena: 25,
+            kalorie: 1000,
+            grafika: "kotlet.jpg",
+            dodatki: {
+                ziemniaki:['ziemniaki z wody','100g'],
+                koperek:['koperek do pozypania ziemniaków','1g'],
+                salatka:['mizeria z ogórków','30g'],
+            }
+        }
+
+Nastepnie wyswietl na stronie obrazek z grafiką kotlet.jpg, a w konsoli 
+opis potrawy wg poniższego schematu:
+
+nazwa : Schabowy 
+opis : Kotlet ze schabu panierowany w bułce i jajku 
+cena : 25 
+kalorie : 1000 
+grafika : kotlet.jpg 
+dodatki : ziemniaki, koperek, salatka,  

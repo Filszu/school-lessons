@@ -1,0 +1,1 @@
+Zmodyfikuj funkcje wypiszOferte(idOferty) z poprzedniego cw tak aby w miejscu wywołania zwracala kod HTML ofert samochodow. Funkcja ma być wywołana w pętli przez funkcję wypiszWszystkieOferty(). 

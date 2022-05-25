@@ -1,0 +1,11 @@
+Do formularza dodaj przycisk Dodaj, naciśnięcie przycisku ma dodać ofertę na podstawie danych z formularza. Nastąpić ma także odświeżenie treści strony.
+
+Uporządkuj kod wg schematu:
+> opisy, obiekty, deklaracje
+> podstawowe funkcje
+        // - dodajOferte(), usunOferte(), zmienOferte()
+        // - wypiszWszystkieOferty(), wypiszOferte
+> dodatkowe funkcje
+	// - dodajUsuwanie(), dodajEdycje(), przepiszDane(idOferty)
+	// - wyczyscDaneFormularza(), dodajDodawanie(), odswierzWidok()
+

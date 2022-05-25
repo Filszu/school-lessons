@@ -1,0 +1,9 @@
+Zdefiniuj najpierw zmienne marka, model, cena, rocznik. Na tej podstawie zdefiniuj obiekt OTOMOTO. Obiekt ma posiadać metodę wiekSamochodu. Wykorzystaj skrócony zapis tzw. literały obiektowe ES6.
+
+POMOC:
+Od standardu ES6 mozliwy jest skrócony zapis definiujący obiekt tzw. literał obiektowy np.
+
+let first_name = "Karol";
+let last_name = "Kowalski";
+let age = 10;
+let obj = {first_name, last_name, age}; //literal obiektowy

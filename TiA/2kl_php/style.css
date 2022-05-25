@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 html{
     --dark: rgb(12, 12, 14);
 }
@@ -5,4 +6,7 @@ html{
 body{
     background-color: var(--dark);
     color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+
 }

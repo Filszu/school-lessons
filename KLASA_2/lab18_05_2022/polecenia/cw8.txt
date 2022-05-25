@@ -1,0 +1,3 @@
+Zdefiniuj funkcję usunOferte(idOferty), ma ona usuwać obiekt - ofertę - z podanym identyfikatorem. 
+
+W każdej wyswietlonej na stronie ofercie, utwórz aktywny element - słowo - Usuń. Kliknięcie na usuń ma powodować usunięcie oferty. W zadaniu do wskazania oferty możesz wykorzystać własność HTML > dataset (patrz dataset.html)

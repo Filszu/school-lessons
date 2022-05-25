@@ -1,0 +1,4 @@
+Zmodyfikuj kod z cw1 tak aby po kliknieciu przycisku DODAJ, nastepowalo automatyczne czyszczenie formularza. W tym celu utworz funkcje czyscFormularz() i przypisz jej dzialanie do przycisku DODAJ
+
+POMOC:
+Dla przycisku DODAJ zastosuj metode .addEventListener, wewnatrz ktorej wywolaj funkcje czyscFormularz()

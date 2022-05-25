@@ -1,0 +1,20 @@
+Zapoznaj sie z tekstem dotyczacym obiektow JSON.
+
+Wzorujac sie na przykladach uworz tablice 5 obiektow w stylu JSON, zawierajacych ponizsze elementy:
+
+id_ksiazki
+tytul
+autor
+rok_wydania
+cena
+
+Elementy uzupelnij wartosciami odnoszacymi sie do twoich ulubionych ksiazek.
+
+Po wykonaniu tablicy obiektow, tytuły ksiażek (wylącznie tytuly) wyswietl w konsoli.
+
+
+POMOC
+Dostep do danych najlepiej uzyskac z pomoca petli for:
+ for(let zmienna of obiekt) {
+        console.log(zmienna.element);
+    } 

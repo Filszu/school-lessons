@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 22px;
+}
+body{
+    background-color:#5f0168;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.container{
+   width: 100%;
+   height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form, .board{
+    width: 50%;
+    /* border: 5px solid black; */
+    min-height: 50vh;
+    /* width: 100%; */
+    background-color: rgba(209, 2, 164, 0.644);
+    border-radius: 125px 55px;
+    padding: 45px;
+    -webkit-box-shadow: 8px 8px 24px 0px rgb(59, 2, 50);
+-moz-box-shadow: 8px 8px 24px 0px rgb(59, 2, 50);
+box-shadow: 8px 8px 24px 0px rgb(59, 2, 50);
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: 3px solid #ac04bb;
+    margin: 15px;
+    border-radius: 35px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+
+}
+
+input:focus{
+    border: 3px solid #6a0274;
+}
+
+input[type="submit"], input[type="reset"]{
+    background-color: rgb(128, 3, 101);
+    color: white;
+    cursor: pointer;
+}
+.debugBox{
+    min-width: 150px;
+    position: fixed;
+    min-height: 25px;
+    background-color: #ac04bb73;
+    right: 0;
+    top:100px;
+}
+
+.deleteItem{
+    color: rgba(238, 255, 0, 0.856);
+    cursor: pointer
+}

@@ -1,0 +1,14 @@
+Wypisz do konsoli klucze obiektu Auta (dodaj wczesniej minimum trzy obiekty klasy Samochod z kluczami samochod1, samochod2, samochod3). Wczesniej zdefiniuj funkcje wypiszOferte(idOferty), i to ją w pętli wykorzystaj do wypisywania kluczy.
+
+POMOC:
+Wywołanie Object.keys(Auta) pozwala iterować po spisie kluczy
+obiektu Auta.
+
+Wywołanie funkcji wypiszOferte() w pętli z argumentem - kluczem
+pozwala wyświetlić klucze - które są jednocześnie nazwami obiektów.
+
+np.
+for(idOferty of Object.keys(Auta))
+{
+wypiszOferte(idOferty);
+}

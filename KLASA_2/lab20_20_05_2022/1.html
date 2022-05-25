@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+</head>
+<body>
+
+    <div class="box"></div>
+    <script>
+        // id_ksiazki
+        // tytul
+        // autor
+        // rok_wydania
+        // cena
+
+        const box = document.querySelector(".box");
+        const ksiegarnia = `
+        [
+            
+
+            {
+                "id_ksiazki":1,
+                "tytul":"SALEM's lot",
+                "autor":"Stephen KING",
+                "rok_wydania": 1900,
+                "cena":25
+            },
+            {
+                "id_ksiazki":2,
+                "tytul":"PET samatary",
+                "autor":"Stephen KING",
+                "rok_wydania": 1900,
+                "cena":25
+            },
+            {
+                "id_ksiazki":3,
+                "tytul":"Pan Tadeusz",
+                "autor":"Miciewicz",
+                "rok_wydania": 1800,
+                "cena":25
+            },
+            {
+                "id_ksiazki":4,
+                "tytul":"Fablehaven",
+                "autor":"Brandon Mull",
+                "rok_wydania": 2010,
+                "cena":25
+            },
+            {
+                "id_ksiazki":5,
+                "tytul":"Needful things",
+                "autor":"STEPHEN KING",
+                "rok_wydania": 2010,
+                "cena":25
+            }
+        
+        ]`;
+
+    const obj = JSON.parse(ksiegarnia);
+    console.log(obj)
+   
+
+    let content="tutuly: <br>"; 
+    for(let t of obj){
+        content+=t.tytul+"<br>";
+        console.log(t.tytul);
+    }
+
+    box.innerHTML=content;
+</script>
+    
+</body>
+</html>

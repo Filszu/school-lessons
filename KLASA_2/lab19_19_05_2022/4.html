@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+</head>
+<body>
+    <div class="box"></div>
+    <script>
+        
+const danieDnia = {
+            nazwa: "Schabowy",
+            opis: "Kotlet ze schabu panierowany w bułce i jajku",
+            cena: 25,
+            kalorie: 1000,
+            grafika: "kotlet.jpg",
+            dodatki: {
+                ziemniaki:['ziemniaki z wody','100g'],
+                koperek:['koperek do pozypania ziemniaków','1g'],
+                salatka:['mizeria z ogórków','30g'],
+            }
+}
+
+document.querySelector(".box").innerHTML=`<img src="kotlet.jpg" alt="kotlet"/>`;
+
+
+
+// nazwa : Schabowy 
+// opis : Kotlet ze schabu panierowany w bułce i jajku 
+// cena : 25 
+// kalorie : 1000 
+// grafika : kotlet.jpg 
+// dodatki : ziemniaki, koperek, salatka,
+
+for(el in danieDnia){
+    if(el=="dodatki"){
+        let content="dodatki: ";
+        
+        for(let d in danieDnia.dodatki){
+            // console.log(danieDnia.dodatki[d]);
+            content+=d+", "
+        }
+        console.log(content);
+    }
+else   console.log(el+" : "+ danieDnia[el]);
+}
+
+
+// Object.keys(danieDnia).forEach(key => {
+//     if(key=="dodatki"){
+//         console.log("dodatki: ")
+//         for(let d in key["dodatki"]){
+//             dodatki[d];
+//         }
+//     }
+//     else{
+//         console.log(key+":"+ danieDnia[key]);
+//     }
+  
+// });
+
+
+
+    </script>
+</body>
+</html>
