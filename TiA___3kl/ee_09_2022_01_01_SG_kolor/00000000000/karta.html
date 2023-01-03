@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karty wędkarskie</title>
+
+    <link rel="stylesheet" href="styl_1.css">
+</head>
+<body>
+    <header id="baner">
+        <h2>Zgłoszenie na kartę wędkarską</h2>
+    </header>
+    <main id="glowny">
+        <form action="zapisz.php" method="POST">
+            <label for="imie">imię</label><br>
+            <input type="text" name="imie" id="imie" required><br>
+            <label for="nazwisko">nazwisko</label><br>
+            <input type="text" name="nazwisko" required><br>
+            <label for="adres">adres</label><br>
+            <input type="text" name="adres"  required><br>
+
+            <input type="reset" value="CZYŚĆ">
+            <button type="submit">ZAPISZ</button>
+
+        </form>
+    </main>
+    <section class="container">
+        <section id="lewy">
+            <h4>Typy łowisk</h4>
+            <ul>
+                <li>Zalewy</li>
+                <li>Stawy</li>
+                <li>Jeziora</li>
+                <li>Rzeki</li>
+            </ul>
+            
+        </section>
+        <section id="srodkowy">
+            <img src="wedka.jpg" alt="karta wędkarska">
+        </section>
+        <section id="prawy">
+            <p>Stronę przygotował 00000000000</p>
+            <a href="http://www.kartawedkarska.pl/">Karta wędkarska</a>            
+        </section>
+    </section>
+
+</body>
+</html>

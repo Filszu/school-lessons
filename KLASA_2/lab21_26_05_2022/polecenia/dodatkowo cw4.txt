@@ -1,0 +1,4 @@
+Do każdej ksiazki z cw1 - każdego obiektu - dodaj nowy klucz o nazwie gatunek i wartości powieść. Modyfikacje danych wykonaj z pomoca Object.assign
+
+POMOC:
+Patrz: Object.Assign(JS).html

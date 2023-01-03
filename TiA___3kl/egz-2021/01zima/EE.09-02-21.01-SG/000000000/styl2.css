@@ -1,0 +1,65 @@
+*{
+    /* box-sizing: border-box;
+    margin:0px;
+    padding: 0px; */
+}
+body{
+    font-family: Verdana;
+    background-color: seagreen;
+}
+.container{
+    width: 100%;
+}
+
+#baner{
+    color: white;
+    text-align: center;
+    height: 330px;
+}
+
+#liga{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    color: white;
+    text-align: center;
+    width: 170px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.box:hover{
+    background-color: white;
+    color: black;
+
+}
+#glowny{
+    color: white;
+}
+
+#lewy{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 150px;
+    text-align: center;
+}
+
+#prawy{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 150px;
+    /* text-align: center; */
+}
+main{
+    /* background-color: yellow; */
+    display:flex;
+}
+
+h3{
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,64 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color: #fffafa;
+    font-family: Georgia;
+}
+
+header,main{
+    display: flex;
+}
+#logo{
+    background-color:#FF7F50;
+    width: 25%;
+    height: 100px;
+}
+
+#baner{
+    text-align: center;
+    width: 75%;
+    height: 100px;
+    background-color:#FF7F50;
+    font-size: 130%;
+}
+
+#glowny{
+    background-color:#FF7F50;
+    padding: 70px;
+}
+
+#lewy{
+    width: 40%;
+    height: 400px;
+}
+
+#prawy{
+    width: 60%;
+    height: 400px;
+    text-align: right;
+}
+
+
+#stopka{
+    background-color:#FF7F50;
+    padding: 20px;
+}
+
+form{
+    margin: 80px;
+}
+
+table{
+    color:white;
+    text-align: center;
+    border: 1px dotted white;
+}
+
+tr:hover{
+    background-color: #d3d3d3;
+    color:black;
+}

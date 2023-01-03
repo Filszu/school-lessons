@@ -1,0 +1,1 @@
+Zmodyfikuj program z poprzedniego lab20 (obiekty JSON), tworząc funkcję wyswietlKsiazke, która jako argument otrzymuje obiekt - ksiazki - zwraca zaś kod HTML. Zwrócony kod HTML wyświetla: div-a z klasą "oferta" o wymiarach 200 x 150px, tło: GhostWhite oraz informacje o książce: tytul, autor, rok_wydania, cena.

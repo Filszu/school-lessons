@@ -1,0 +1,4 @@
+Zmodyfikuj program z cw1 tak aby wyswietlic na stronie tylko ksiazki wydane w biezacym roku. Skorzystaj z przygotowanej funkcji wyswietlKsiazke.
+
+POMOC:
+Patrz filter.html

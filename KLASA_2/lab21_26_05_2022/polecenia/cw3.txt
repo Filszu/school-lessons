@@ -1,0 +1,1 @@
+Ze zbioru danych usuń z pomocą filter ksiazke z id_ksiazki = 1. Wyświetl ksiazki. Zmodyfikuj w tym celu przygotowana w cw2 instrukcje filtrujaca.

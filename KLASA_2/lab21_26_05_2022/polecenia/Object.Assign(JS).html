@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!-- Metoda Javascript Object assign() kopiuje właściwości z obiektu źródłowego do obiektu docelowego. 
+Cała operacja (przypisanie i kopiowanie) jest wykonywana przez odniesienie.
+
+Składnia:
+Object.assign(target, sources) 
+
+Parametry:
+target: Reprezentuje obiekt docelowy.
+source: Reprezentuje obiekt źródłowy.
+
+Return:
+Zwraca obiekt docelowy.
+-->
+<script>
+const first = {x: 1, y: 2, z: 3};  
+const second = Object.assign({x: 0, z: 0, w: 5}, first);  
+document.write(second.z + "</br>");
+document.write(second.w + "</br>");
+document.write(second.x);
+console.log(first)
+console.log(second)
+</script>
+</body>
+</html>

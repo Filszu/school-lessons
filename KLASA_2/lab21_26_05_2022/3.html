@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="box"></div>
+    <script>
+        // id_ksiazki
+        // tytul
+        // autor
+        // rok_wydania
+        // cena
+
+        const box = document.querySelector(".box");
+        const ksiegarnia = `
+        [
+            
+
+            {
+                "id_ksiazki":1,
+                "tytul":"SALEM's lot",
+                "autor":"Stephen KING",
+                "rok_wydania": 1900,
+                "cena":25
+            },
+            {
+                "id_ksiazki":2,
+                "tytul":"PET samatary",
+                "autor":"Stephen KING",
+                "rok_wydania": 1900,
+                "cena":25
+            },
+            {
+                "id_ksiazki":3,
+                "tytul":"Pan Tadeusz",
+                "autor":"Miciewicz",
+                "rok_wydania": 1800,
+                "cena":35
+            },
+            {
+                "id_ksiazki":4,
+                "tytul":"Fablehaven",
+                "autor":"Brandon Mull",
+                "rok_wydania": 2010,
+                "cena":25
+            },
+            {
+                "id_ksiazki":5,
+                "tytul":"Needful things",
+                "autor":"STEPHEN KING",
+                "rok_wydania": 2022,
+                "cena":45
+            }
+        
+        ]`;
+
+    const obj = JSON.parse(ksiegarnia);
+    
+   
+
+    function wyswietlKsiazke(obj){
+        console.log(obj)
+        let content="";
+        // content="tutuly: <br>"; 
+        const yearBooks = obj.filter(id => id.id_ksiazki !== 1);
+        console.log(yearBooks)
+
+        for(let t of yearBooks){
+            
+            content+=`<div class="oferta">`;
+            content+="<h3>"+t.tytul+"</h3>";
+            content+="<h4>"+t.autor+"</h4>";
+            content+="<p>rok wydania"+t.rok_wydania+"</p>";
+            content+="<p>cena: "+t.cena+"zł</p>";
+            console.log(t.tytul);
+            content+=`</div>`;
+        }
+
+        box.innerHTML=content;
+    }
+    
+
+    wyswietlKsiazke(obj)
+</script>
+    
+</body>
+</html>
