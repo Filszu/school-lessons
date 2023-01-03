@@ -1,0 +1,1 @@
+Nadaj atrakcyjny wygląd stronie z tabliczką mnożenia. Czynniki (mnożną i mnożnik) oznacz innymi kolorami.

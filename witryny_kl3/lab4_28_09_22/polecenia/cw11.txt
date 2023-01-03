@@ -1,0 +1,1 @@
+Wyświetl liczby malejąco od 10 do 0. Użyj pętli for.

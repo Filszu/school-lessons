@@ -1,0 +1,1 @@
+Wzorujac sie na przykladzie wyjatek.php zmodyfikuj kod z cwiczenia LAB8 cwiczenie2, tak aby obsluzyc wyjatek polegajacy na braku pliku na dysku za pomoca try...catch

@@ -1,0 +1,6 @@
+Napisz skrypt, który wyświetli zmienną $x, a następnie sprawdzi, czy jest ona większa od tego ile masz lat i wyświetli tekst zmienna $x jest starsza (lub młodsza ode mnie) (użyj instrukcji warunkowej if):
+
+$x = 20;
+
+POMOC:
+w3 > PHP If...Else...ElseIf

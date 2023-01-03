@@ -1,0 +1,9 @@
+Popraw plik wyjatek.php wg schematu: 
+
+>uzytkownik moze podawac liczby do podzielenia
+
+>jesli dzielnik to 0 uzytkownik otrzymuje komunikat w oknie dialogowym alert: "Nie dziel cholero przez zero!!!"
+
+>Wyswietlany wynik dzielenia w naglowku ze zmienionym kolorem, zaokraglony do dwóch miejsc po przecinku
+
+ 

@@ -1,0 +1,7 @@
+Napisz skrypt z użyciem pętli for wyświetlający:
+
+*
+**
+***
+****
+*****

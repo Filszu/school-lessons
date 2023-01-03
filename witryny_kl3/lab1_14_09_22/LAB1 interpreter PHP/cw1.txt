@@ -1,0 +1,5 @@
+Zainstaluj w systemie srodowisko XAMPP
+
+POMOC: link w pliku: "xampp instalacja film"
+
+Zaliczenie: dzialajacy interpreter PHP

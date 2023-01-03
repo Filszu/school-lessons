@@ -1,0 +1,7 @@
+Utworz plik twoje_imie.php i umiesc w pliku kod php wyswietlajacy twoje dane osobowe wg formatu ze wzoru (plik wzor.png)
+
+POMOC: link w pliku: "pierwszy kod w PHP"
+
+Nastepnie przetestuj dzialanie pliku na serwerze XAMPP i wykonaj zrzut z tego testu do pliku png.
+
+Zaliczenie: zrzut.png

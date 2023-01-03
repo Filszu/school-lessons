@@ -1,0 +1,9 @@
+Pobierz od użytkownika kolor wyświetlany na sygnalizatorze na skrzyżowaniu. Następnie w zależności od podanego koloru wyświetl użytkownikowi odpowiednio:
+
+ZIELONY oznacza JEDZ";
+ŻÓŁTY oznacza UWAŻAJ;
+CZERWONY oznacza STÓJ";
+
+INNY > ten kolor nie jest uwzgledniony;
+
+Uniezależnij działanie programu od wielkości liter podawanego koloru.

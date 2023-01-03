@@ -1,0 +1,2 @@
+Opracuj jaki ciekawy przykład z wykorzystaniem typu tablicowego.
+W komentarzu programu opisz jego działanie.

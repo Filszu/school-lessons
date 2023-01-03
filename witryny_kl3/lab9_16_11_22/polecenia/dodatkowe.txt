@@ -1,0 +1,1 @@
+Przygotuj swoj autorski program, w ktorym wykorzystasz obsluge wyjatkow.

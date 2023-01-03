@@ -1,0 +1,5 @@
+Utwórz zmienną o nazwie $php i przypisz do niej napis: “$$ ćwiczymy PHP $$”. Następnie, umieść zawartość
+tej zmiennej w tytule strony oraz w nagłówku H2 w widoku strony.
+
+POMOC:
+https://www.w3schools.com/php/default.asp > PHP Variables

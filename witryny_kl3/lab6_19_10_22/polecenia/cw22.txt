@@ -1,0 +1,2 @@
+Napisz funkcję o nazwie testLiczby, która zwraca prawdę (true), jeżeli przekazany argument jest mniejszy od
+zera.

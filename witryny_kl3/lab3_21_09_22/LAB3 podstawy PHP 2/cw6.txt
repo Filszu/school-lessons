@@ -1,0 +1,4 @@
+Przygotuj skrypt, który obliczy pole powierzchni i obwód prostokąta o bokach $x i $y:
+
+$x = 20;
+$y = 100;

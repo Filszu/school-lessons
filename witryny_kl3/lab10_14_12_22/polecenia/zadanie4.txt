@@ -1,0 +1,9 @@
+Napisz skrypt, ktory w lokalnej baze danych z zadania3
+utworzy tabele o nazwie UCZNIOWIE z polami:
+
+id (klucz podstawowy)
+imie
+nazwisko
+email
+
+Poprawnosc dzialania skryptu sprawdz w lokalnej bazie danych.

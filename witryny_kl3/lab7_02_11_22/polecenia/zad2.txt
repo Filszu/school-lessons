@@ -1,0 +1,2 @@
+Z dotychczasowych LAB od LAB1 do LAB6 wybierz 5 dowolnych zadań, w których można pobierać dane od użytkownika i przerób je tak, aby użytkownik mógł podawać dane niezbędne do wykonania programu. W komentarzu programów umięść nr LAB oraz nr zadania np. 
+//LAB3 cw7

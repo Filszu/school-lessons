@@ -1,0 +1,1 @@
+Zwieksz funkcjonalnosc strony do testowania licznika poprzez dodanie przycisku kasowania licznika strony

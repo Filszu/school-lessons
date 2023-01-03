@@ -1,0 +1,10 @@
+Zdefiniuj jeden z trzech kolorów czerwony, zolty, zielony w zmiennej $kolor, a nastepnie wyswietl w zaleznosci od zdefiniowanego koloru:
+jeśli zielony "$kolor oznacza JEDZ"
+jeśli zolty "$kolor oznacza UWAZAJ"
+jeśli czerwony "$kolor oznacza STOJ"
+
+
+Zadanie zrealizuj za pomocą instrukcji warunkowej Switch
+
+POMOC:
+w3 > PHP Switch

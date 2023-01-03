@@ -1,0 +1,3 @@
+Zapoznaj sie z trescia tekstu: https://phpkurs.pl/podstawy/, a nastepnie sprawdz czy wszystkie metody przejscia do trybu PHP przedstawione w opisie dzialaja prawidlowo na twoim serwerze.
+
+Zaliczenie: odpowiedz dotyczaca sprawdzenia umieszczona w pliku twoje_imie.php w formie komentarza.

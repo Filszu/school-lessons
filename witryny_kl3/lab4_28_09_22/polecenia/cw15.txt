@@ -1,0 +1,1 @@
+Napisz skrypt wyświetlający tabelkę mnożenia

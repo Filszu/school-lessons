@@ -1,0 +1,1 @@
+Napisz skrypt sumujący wszystkie liczby nieparzyste z przedziału od 0 do 10. Użyj instrukcji continue.

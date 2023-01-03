@@ -1,0 +1,2 @@
+Przygotuj funkcję, która jako argument przyjmuje liczbę i zwraca prawdę, 
+jeśli liczba jest podzielna przez 5 i 7.

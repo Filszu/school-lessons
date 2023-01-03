@@ -1,0 +1,3 @@
+Napisz skrypt, ktory do tabeli UCZNIOWIE doda nowy rekord uzupelniony twoimi danymi.
+
+Poprawnosc dzialania skryptu sprawdz w lokalnej bazie danych.

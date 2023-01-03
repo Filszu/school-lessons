@@ -1,0 +1,8 @@
+Wyświetl wynik dodawania, odejmowania, dzielenia, mnożenia, reszty z dzielenia i potęgowania dwóch
+zmiennych:
+
+$x = 4;
+$y = 8;
+
+POMOC:
+https://www.w3schools.com/php/default.asp > PHP Variables, PHP Math

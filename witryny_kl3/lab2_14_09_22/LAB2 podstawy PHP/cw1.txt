@@ -1,0 +1,4 @@
+Napisz skrypt, który umieści na stronie w znacznikach H1 napis: “PHP to fajny język programowania”.
+
+POMOC:
+https://www.w3schools.com/php/default.asp > PHP echo

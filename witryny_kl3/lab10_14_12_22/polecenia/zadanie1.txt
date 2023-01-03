@@ -1,0 +1,3 @@
+Przygotuj skrypt testujący lokalne polaczenie z serwerem bazy danych np. xampp > MySQL
+
+Prawidlowosc dzialania skryptu przetestuj na lokalnej bazie danych.

@@ -1,0 +1,3 @@
+Przemień tablicę z ćw.19 na tablicę asocjacyjną. Wyświetl ja rosnąco i dodatkowo wyświetl jej strukturę (np. var_dump()).
+
+Tablice asocjacyjne to tablice, w których zamiast indeksu numerycznego poszczególne komórki mają swoje nazwy - tak zwane klucze. Aby odczytać daną wartość z tablicy asocjacyjnej trzeba się odwołać do tablicy poprzez nazwę odpowiedniej komórki. Tablica przechowuje więc pary klucz-wartość.

@@ -1,0 +1,4 @@
+Wyświetl kolejno liczby od 1 do 10 (każda w nowej linii). Wykorzystaj pętle for.
+
+POMOC:
+w3 > PHP Loops

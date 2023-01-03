@@ -1,0 +1,2 @@
+Opracuj jakis ciekawy przykład z wykorzystaniem funkcji.
+W komentarzu programu opisz jego działanie.

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  margin:0px;
+  box-sizing: border-box;
+  padding:0px;
+ 
+}
+:root{
+  --main-font-size: 20px;
+}
+body {
+  background-color: rgb(28, 3, 39);
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: var(--main-font-size);
+  
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+}
+
+input, select, button{
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 25px 50px;
+    font-size: var(--main-font-size);
+    outline: none;
+    border: 3px solid transparent;
+   
+    transition: all ease-in 0.1s;
+  }
+  
+  input:focus{
+    border: 3px solid rgb(159, 39, 202);
+  }

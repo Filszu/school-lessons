@@ -1,0 +1,5 @@
+Napisz skrypt, który zamienia między sobą wartości dwóch zmiennych:
+
+
+$zmiennax1 = 10;
+$zmiennax2 = 12;

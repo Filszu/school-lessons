@@ -1,0 +1,27 @@
+1. Utworz licznik strony wg algorytmu:
+>
+Sprawdzamy czy istnieje plik licznika
+>
+jesli TAK:
+>otwieramy plik
+>pobieramy dane z pliku do zmiennej licznik i konwertujemy na int
+>zamykamy plik
+>zwiekszamy wartosc licznika o 1
+>nadpisujemy plik (w ten sposob go czyscimy ze starych danych)
+>wpisujemy nową wartość licznika do pliku
+>zamykamy plik
+>
+jesli NIE:
+>tworzymy zmienna licznik i ustawiamy jej wartosc na 1
+>tworzymy nowy plik licznika
+>wpisujemy wartosc licznika do pliku
+zamykamy plik
+>
+Wyswietlamy wartosc licznika (np. print "";)
+
+2. Przygotuj strone php do testowania licznika 
+POMOC:
+dodanie programu z licznikiem do strony:
+<?php
+include('licznik.php');
+?>

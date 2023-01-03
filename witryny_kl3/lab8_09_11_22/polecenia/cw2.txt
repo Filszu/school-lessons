@@ -1,0 +1,6 @@
+Napisz program, ktory odczytuje zawartosc pliku dane i wyswietla je na stronie
+
+Zabezpiecz program na wypadek braku pliku dane na dysku.
+
+POMOC:
+https://www.w3schools.com/php/php_file_upload.asp

@@ -1,0 +1,14 @@
+Zdefiniuj trzy zmienne:
+
+$x = 27;
+$pi = 3.14;
+$tekst = "ćwiczenia PHP";
+
+używając zmiennych $x, $pi, $tekst napisz skrypt wyświetlający następujący tekst:
+
+27 to liczba pierwsza
+Liczba PI to: 3.14
+ćwiczenia PHP są super
+
+POMOC:
+https://www.w3schools.com/php/default.asp > PHP Variables

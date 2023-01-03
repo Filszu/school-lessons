@@ -1,0 +1,1 @@
+Zdefiniuj tablicę $imiona, która będzie zawierała imiona Twoje i 4 kolegow z klasy. Wyswietl ją, posortuj rosnąco i ponownie wyświetl. Następnie posortuj malejąco i ponownie wyświetl. Tablice oddzielaj od siebie np. pustym wierszem.

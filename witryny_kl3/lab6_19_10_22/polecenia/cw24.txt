@@ -1,0 +1,2 @@
+Przygotuj program, z uzyciem funkcji który podaną kwotę pieniędzy (liczba całkowita) 
+rozmieni na jak najmniejszą ilość monet i banknotów o nominałach 1, 2, 5, 10 złotych

@@ -1,0 +1,6 @@
+Pobierz za pomoca formularza imie uzytkownika (imiona uzytkownikow)
+
+Zapisz pobrane imie (imiona) w pliku o nazwie dane
+
+POMOC:
+https://www.w3schools.com/php/php_file_create.asp

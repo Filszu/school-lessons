@@ -1,0 +1,1 @@
+Napisz skrypt wyświetlający: “1-2-3-5-6-7-8-9”. Użyj dowolnej pętli i instrukcji continue (wykluczono wartość 4).

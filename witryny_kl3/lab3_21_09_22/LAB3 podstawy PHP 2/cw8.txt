@@ -1,0 +1,4 @@
+Napisz skrypt, który sprawdzi, czy zmienna $z jest liczbą trzycyfrową (podobnie jak w zadaniu nr 7 użyj instrukcji warunkowej if):
+
+POMOC:
+w3 > PHP Operators

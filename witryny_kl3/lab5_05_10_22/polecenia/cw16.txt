@@ -1,0 +1,6 @@
+Utwórz tablicę czteroelementową zawierającą następujące wartości: “Fioletowy”, “Niebieski”, “Różowy”, “Zielony”. Następnie użyj jej do wyświetlenia listy:
+
+Fioletowy
+Niebieski
+Różowy
+Zielony

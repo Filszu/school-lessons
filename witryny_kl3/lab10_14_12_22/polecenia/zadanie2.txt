@@ -1,0 +1,1 @@
+Zmodyfikuj tak skrypt z zadania1, aby dane potrzebne do zalogowania do bazy mozna bylo pobrac od uzytkownika (serwer, uzytkownik, haslo) w postaci formularza

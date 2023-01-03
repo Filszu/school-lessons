@@ -1,0 +1,2 @@
+Z posrod wykonywanych do tej pory zadan z LAB1 do LAB5 wybierz dowolne 3 i przeksztalc je na funkcje.
+Na stronie wyswietl nr wybranego lab oraz nr cwiczenia.

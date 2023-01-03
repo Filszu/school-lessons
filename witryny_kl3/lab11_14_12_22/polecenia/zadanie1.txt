@@ -1,0 +1,5 @@
+Zbuduj formularz do obslugi cwiczeniowej bazy danych z LAB10 umozliwiajacy:
+
+> dodawanie rekordow
+> usuwanie rekordow
+> wyswietlanie rekordow

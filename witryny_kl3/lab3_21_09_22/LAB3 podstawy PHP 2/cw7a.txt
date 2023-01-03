@@ -1,0 +1,4 @@
+Popraw program z cw7 tak aby uwzględniał sytuację gdy zmienna $x jest równa ilości twoich lat;
+
+POMOC:
+w3 > PHP If...Else...ElseIf

@@ -1,0 +1,5 @@
+Oblicz temperaturę średnia. Posłuż się tablicą $wartosci przechowującą odczytane temperatury:
+
+$wartosci = [20, 17, 22, 20, 16, 31, 22, 15, 13, -12, 16, 7, 1, 0, -7, -10];
+
+Wartość średniej zaokrąglij do liczby całkowitej

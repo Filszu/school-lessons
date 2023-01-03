@@ -1,0 +1,4 @@
+Napisz skrypt, ktory lokalnie utworzy baze danych o nazwie:
+TwojaKlasa_TwojaGrupa np. 3Tx_2
+
+Poprawnosc dzialania skryptu sprawdz w lokalnej bazie danych.

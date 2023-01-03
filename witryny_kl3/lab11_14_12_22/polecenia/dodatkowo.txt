@@ -1,0 +1,1 @@
+Uzupelnij formularz z zadania 1 o dodatkowe funkcjonalnosci, np. sortowanie rekordow, wybieranie rekordow wg zadanych kryteriow.
